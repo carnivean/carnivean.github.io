@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Erik Kynast</title>
+    <link>https://carnivean.github.io/course/index.xml</link>
+    <description>Recent content in Courses on Erik Kynast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Erik Kynast</copyright>
+    <atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/ged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/ged/</guid>
+      <description>
+
+&lt;h1 id=&#34;ged-ss-17&#34;&gt;GED SS 17&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/info1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/info1/</guid>
+      <description>
+
+&lt;h1 id=&#34;repertorium-für-einführung-in-die-informatik-1&#34;&gt;Repertorium für Einführung in die Informatik 1&lt;/h1&gt;
+
+&lt;h2 id=&#34;themen-des-repertoriums&#34;&gt;Themen des Repertoriums&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#java-grundlagen&#34;&gt;Java Grundlagen: Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syntax&#34;&gt;Syntax: Reguläre Ausdrücke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rekursion&#34;&gt;Rekursion: Endkursiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung: Klassen, Objekte, Listen, Vererbung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#polymorphie&#34;&gt;Polymorphie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#threads&#34;&gt;Threads&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;java-grundlagen&#34;&gt;Java Grundlagen&lt;/h2&gt;
+
+&lt;h3 id=&#34;datentypen-ausdrücke-kontrollstrukturen-schleifen&#34;&gt;Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen&lt;/h3&gt;
+
+&lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
+
+&lt;h3 id=&#34;reguläre-ausdrucke-kurz-syntaxbäume-kontrollflussdiagramme&#34;&gt;Reguläre Ausdrucke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/h3&gt;
+
+&lt;h4 id=&#34;reguläre-ausdrücke-lösungen&#34;&gt;Reguläre Ausdrücke Lösungen&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_decimal_numbers&#34;&gt;Problem 1: Matching a decimal numbers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;-?(\d|,|\.)+(e\d+)?$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_phone_numbers&#34;&gt;Problem 2: Matching phone numbers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;1?(-|\W)?(\((\d{3})\)|(\d{3}))(-|\W)?(\d{3})(-|\W)?(\d{4})&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_emails&#34;&gt;Problem 3: Matching emails&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;((\w|\.)+)(\+\w+)?@\w+.(eu)?.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_html&#34;&gt;Problem 4: Matching HTML&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\&amp;lt;(\w+)(\s+.+)?\&amp;gt;.+\&amp;lt;\/\1\&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_filenames&#34;&gt;Problem 5: Matching specific filenames&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(\w+).(gif|jpg|png)$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/trimming_whitespace?&#34;&gt;Problem 6: Trimming whitespace from start and end of line&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;^\s*((\w|\s|\.)+$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/extracting_log_data?&#34;&gt;Problem 7: Extracting information from a log file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\.(\w+)\((\w+.java):(\d+)\)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/extracting_url_data?&#34;&gt;Problem 8: Parsing and extracting data from a URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(\w+):\/\/((\w+|-|\.)+)(:(\d+))?\/(.+)?&lt;/code&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rekursion&#34;&gt;Rekursion&lt;/h2&gt;
+
+&lt;h3 id=&#34;endrekursiv&#34;&gt;Endrekursiv&lt;/h3&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung&lt;/h2&gt;
+
+&lt;h3 id=&#34;klassen-objekte-listen-vererbung&#34;&gt;Klassen, Objekte, Listen, Vererbung&lt;/h3&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;polymorphie&#34;&gt;Polymorphie&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;threads&#34;&gt;Threads&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.19" />
+  <meta name="author" content="Erik Kynast">
+  <meta name="description" content="Student und Tutor">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://carnivean.github.io/index.xml" type="application/rss+xml" title="Erik Kynast">
+  <link rel="feed" href="https://carnivean.github.io/index.xml" type="application/rss+xml" title="Erik Kynast">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://carnivean.github.io/course/info1/">
+
+  
+
+  <title> | Erik Kynast</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Erik Kynast</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Lehre</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/course/info1">
+            
+            <span>Info 1</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/course/ged">
+            
+            <span>GED</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <div class="container">
+      
+
+      
+         <div class="row part">
+           
+
+<h1 id="repertorium-für-einführung-in-die-informatik-1">Repertorium für Einführung in die Informatik 1</h1>
+
+<h2 id="themen-des-repertoriums">Themen des Repertoriums</h2>
+
+<ol>
+<li><a href="#java-grundlagen">Java Grundlagen: Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen</a></li>
+<li><a href="#syntax">Syntax: Reguläre Ausdrücke (kurz), Syntaxbäume, Kontrollflussdiagramme</a></li>
+<li><a href="#rekursion">Rekursion: Endkursiv</a></li>
+<li><a href="#objektorentierte-programmierung">Objektorentierte Programmierung: Klassen, Objekte, Listen, Vererbung</a></li>
+<li><a href="#sortier-und-suchalgorithmen">Sortier- und Suchalgorithmen</a></li>
+<li><a href="#polymorphie">Polymorphie</a></li>
+<li><a href="#interfaces-abstrakte-finale-klassen">Interfaces, abstrakte/finale Klassen</a></li>
+<li><a href="#threads">Threads</a>
+
+         </div>
+      
+         <div class="row part">
+           </li>
+</ol>
+
+<h2 id="java-grundlagen">Java Grundlagen</h2>
+
+<h3 id="datentypen-ausdrücke-kontrollstrukturen-schleifen">Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen</h3>
+
+<p>Siehe <a href="https://moodle.stecrz.de/">Moodle von meinem Kollegen Stefan Berktold</a>
+
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="syntax">Syntax</h2>
+
+<h3 id="reguläre-ausdrucke-kurz-syntaxbäume-kontrollflussdiagramme">Reguläre Ausdrucke (kurz), Syntaxbäume, Kontrollflussdiagramme</h3>
+
+<h4 id="reguläre-ausdrücke-lösungen">Reguläre Ausdrücke Lösungen</h4>
+
+<p><a href="https://regexone.com/problem/matching_decimal_numbers">Problem 1: Matching a decimal numbers</a></p>
+
+<p><code>-?(\d|,|\.)+(e\d+)?$</code></p>
+
+<p><a href="https://regexone.com/problem/matching_phone_numbers">Problem 2: Matching phone numbers</a></p>
+
+<p><code>1?(-|\W)?(\((\d{3})\)|(\d{3}))(-|\W)?(\d{3})(-|\W)?(\d{4})</code></p>
+
+<p><a href="https://regexone.com/problem/matching_emails">Problem 3: Matching emails</a></p>
+
+<p><code>((\w|\.)+)(\+\w+)?@\w+.(eu)?.com</code></p>
+
+<p><a href="https://regexone.com/problem/matching_html">Problem 4: Matching HTML</a></p>
+
+<p><code>\&lt;(\w+)(\s+.+)?\&gt;.+\&lt;\/\1\&gt;</code></p>
+
+<p><a href="https://regexone.com/problem/matching_filenames">Problem 5: Matching specific filenames</a></p>
+
+<p><code>(\w+).(gif|jpg|png)$</code></p>
+
+<p><a href="https://regexone.com/problem/trimming_whitespace?">Problem 6: Trimming whitespace from start and end of line</a></p>
+
+<p><code>^\s*((\w|\s|\.)+$</code></p>
+
+<p><a href="https://regexone.com/problem/extracting_log_data?">Problem 7: Extracting information from a log file</a></p>
+
+<p><code>\.(\w+)\((\w+.java):(\d+)\)</code></p>
+
+<p><a href="https://regexone.com/problem/extracting_url_data?">Problem 8: Parsing and extracting data from a URL</a></p>
+
+<p><code>(\w+):\/\/((\w+|-|\.)+)(:(\d+))?\/(.+)?</code>
+
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="rekursion">Rekursion</h2>
+
+<h3 id="endrekursiv">Endrekursiv</h3>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="objektorentierte-programmierung">Objektorentierte Programmierung</h2>
+
+<h3 id="klassen-objekte-listen-vererbung">Klassen, Objekte, Listen, Vererbung</h3>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="sortier-und-suchalgorithmen">Sortier- und Suchalgorithmen</h2>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="polymorphie">Polymorphie</h2>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="interfaces-abstrakte-finale-klassen">Interfaces, abstrakte/finale Klassen</h2>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="threads">Threads</h2>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+         </div>
+      
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Erik Kynast &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
