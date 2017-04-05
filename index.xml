@@ -66,7 +66,7 @@
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#java-grundlagen&#34;&gt;Java Grundlagen: Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#syntax&#34;&gt;Syntax: Reguläre Ausdrücke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syntax&#34;&gt;Syntax: Arrays, Reguläre Ausdrücke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#rekursion&#34;&gt;Rekursion: Endkursiv&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung: Klassen, Objekte, Listen, Vererbung&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/a&gt;&lt;/li&gt;
@@ -86,6 +86,13 @@
 &lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
 
 &lt;h3 id=&#34;reguläre-ausdrucke-kurz-syntaxbäume-kontrollflussdiagramme&#34;&gt;Reguläre Ausdrucke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/h3&gt;
+
+&lt;h4 id=&#34;syntaxbäume-lösungen&#34;&gt;Syntaxbäume Lösungen&lt;/h4&gt;
+
+&lt;p&gt;a)
+&lt;img src=&#34;https://carnivean.github.io/img/syntax_a.png&#34; alt=&#34;Syntaxbaum für Aufgabe a)&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;b)&lt;/p&gt;
 
 &lt;h4 id=&#34;reguläre-ausdrücke-lösungen&#34;&gt;Reguläre Ausdrücke Lösungen&lt;/h4&gt;
 
