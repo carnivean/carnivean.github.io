@@ -85,7 +85,11 @@
 
 &lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
 
-&lt;h3 id=&#34;reguläre-ausdrucke-kurz-syntaxbäume-kontrollflussdiagramme&#34;&gt;Reguläre Ausdrucke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/h3&gt;
+&lt;h3 id=&#34;arrays-syntaxbäume-kontrollflussdiagramme-reguläre-ausdrucke-kurz&#34;&gt;Arrays, Syntaxbäume, Kontrollflussdiagramme, Reguläre Ausdrucke (kurz)&lt;/h3&gt;
+
+&lt;h5 id=&#34;arrays&#34;&gt;Arrays&lt;/h5&gt;
+
+&lt;p&gt;Eine Lösungsmöglichkeit für die Aufgaben findet ihr: &lt;a href=&#34;https://carnivean.github.io/src/RepArrays.java&#34;&gt;RepArrays.java&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;syntaxbäume-lösungen&#34;&gt;Syntaxbäume Lösungen&lt;/h4&gt;
 
