@@ -143,14 +143,18 @@
 
 &lt;h2 id=&#34;objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung&lt;/h2&gt;
 
-&lt;h3 id=&#34;klassen-objekte-listen-vererbung&#34;&gt;Klassen, Objekte, Listen, Vererbung&lt;/h3&gt;
+&lt;h3 id=&#34;klassen-objekte&#34;&gt;Klassen, Objekte&lt;/h3&gt;
+
+&lt;p&gt;Die Lösung für die Bücher: &lt;a href=&#34;https://carnivean.github.io/src/Book.java&#34;&gt;Book.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;listen&#34;&gt;Listen&lt;/h4&gt;
 
 &lt;p&gt;Die erweiterte Lösung für die Liste + Testklasse: &lt;a href=&#34;https://carnivean.github.io/src/List.java&#34;&gt;List.java&lt;/a&gt; und &lt;a href=&#34;https://carnivean.github.io/src/ListTest.java&#34;&gt;ListTest.java&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+&lt;p&gt;&lt;split&gt;5&lt;/p&gt;
 
 &lt;h2 id=&#34;polymorphie&#34;&gt;Polymorphie&lt;/h2&gt;
 
