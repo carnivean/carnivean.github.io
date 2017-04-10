@@ -154,11 +154,19 @@
 
 &lt;h2 id=&#34;sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;5&lt;/p&gt;
+&lt;h4 id=&#34;suchalgorithmen&#34;&gt;Suchalgorithmen&lt;/h4&gt;
+
+&lt;p&gt;Suche: &lt;a href=&#34;https://carnivean.github.io/src/Search.java&#34;&gt;Search.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;sortieralgorithmen&#34;&gt;Sortieralgorithmen&lt;/h4&gt;
+
+&lt;p&gt;Insertionsort: &lt;a href=&#34;https://carnivean.github.io/src/Sorts.java&#34;&gt;Sorts.java&lt;/a&gt;, Mergesort: &lt;a href=&#34;https://carnivean.github.io/src/MergeSortList.java&#34;&gt;MergeSortList.java&lt;/a&gt;
+&lt;split&gt;5&lt;/p&gt;
 
 &lt;h2 id=&#34;polymorphie&#34;&gt;Polymorphie&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+&lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/h2&gt;
 
