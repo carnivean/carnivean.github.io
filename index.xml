@@ -72,7 +72,8 @@
 &lt;li&gt;&lt;a href=&#34;#sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/a&gt;
 5.2. &lt;a href=&#34;#polymorphie&#34;&gt;Polymorphie&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#threads&#34;&gt;Threads&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#threads&#34;&gt;Threads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#freeforall&#34;&gt;Free for all&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -173,6 +174,10 @@
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;threads&#34;&gt;Threads&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;free-for-all&#34;&gt;Free for all :-)&lt;/h2&gt;
 
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
 </description>
