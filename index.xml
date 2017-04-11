@@ -71,11 +71,31 @@
 &lt;li&gt;&lt;a href=&#34;#objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung: Klassen, Objekte, Listen, Vererbung&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/a&gt;
 5.2. &lt;a href=&#34;#polymorphie&#34;&gt;Polymorphie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#interfaces&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#threads&#34;&gt;Threads&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#freeforall&#34;&gt;Free for all&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&#34;ablauf-letzte-3-tage&#34;&gt;Ablauf letzte 3 Tage&lt;/h2&gt;
+
+&lt;h3 id=&#34;dienstag&#34;&gt;Dienstag&lt;/h3&gt;
+
+&lt;p&gt;Interfaces, abstrakte und finale Klassen, Lambda Ausdrücke&lt;/p&gt;
+
+&lt;h3 id=&#34;mittwoch&#34;&gt;Mittwoch&lt;/h3&gt;
+
+&lt;h4 id=&#34;vormittags&#34;&gt;Vormittags&lt;/h4&gt;
+
+&lt;p&gt;Frage und Wiederholung allgemein&lt;/p&gt;
+
+&lt;h4 id=&#34;nachmittags&#34;&gt;Nachmittags&lt;/h4&gt;
+
+&lt;p&gt;Threads&lt;/p&gt;
+
+&lt;h3 id=&#34;donnerstag&#34;&gt;Donnerstag&lt;/h3&gt;
+
+&lt;p&gt;event. Threads noch fertig machen, ansonsten Frage und Wiederholung allgemein&lt;/p&gt;
 
 &lt;h2 id=&#34;java-grundlagen&#34;&gt;Java Grundlagen&lt;/h2&gt;
 
@@ -169,13 +189,15 @@
 &lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;interfaces-abstrakte-finale-klassen-lambda-ausdrücke&#34;&gt;Interfaces, abstrakte/finale Klassen, Lambda Ausdrücke&lt;/h2&gt;
+&lt;h2 id=&#34;interfaces&#34;&gt;Interfaces&lt;/h2&gt;
 
-&lt;h4 id=&#34;interfaces&#34;&gt;Interfaces&lt;/h4&gt;
+&lt;h4 id=&#34;interfaces-1&#34;&gt;Interfaces&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/lecture-notes/MIT1_00S12_Lec_15.pdf&#34;&gt;MIT OCW - Interfaces&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus.java&#34;&gt;Bus.java&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://davin.50webs.com/research/1999/egs/q14.pdf&#34;&gt;Interfaces Exercises&lt;/a&gt;, &lt;a href=&#34;http://davin.50webs.com/research/1999/egs/InterTest.java&#34;&gt;InterTest.java&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://davin.50webs.com/research/1999/egs/q14.pdf&#34;&gt;Interfaces Exercises&lt;/a&gt;, &lt;a href=&#34;http://davin.50webs.com/research/1999/egs/InterTest.java&#34;&gt;InterTest.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/aufgabe_abstract.pdf&#34;&gt;Abstract &amp;amp; Interface Exercise&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;threads&#34;&gt;Threads&lt;/h2&gt;
