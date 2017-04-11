@@ -162,7 +162,11 @@
 
 &lt;h4 id=&#34;interfaces-1&#34;&gt;Interfaces&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/lecture-notes/MIT1_00S12_Lec_15.pdf&#34;&gt;MIT OCW - Interfaces&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus.java&#34;&gt;Bus.java&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/lecture-notes/MIT1_00S12_Lec_15.pdf&#34;&gt;MIT OCW - Interfaces&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus.java&#34;&gt;Bus.java&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Bus/BusTest.java&#34;&gt;BusTest.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus/CNGBus.java&#34;&gt;CNGBus.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/Electric.java&#34;&gt;Electric.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/ElectricBus.java&#34;&gt;ElectricBus.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/Hybrid.java&#34;&gt;Hybrid.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/LiquidFuel.java&#34;&gt;LiquidFuel.java&lt;/a&gt;,&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://davin.50webs.com/research/1999/egs/q14.pdf&#34;&gt;Interfaces Exercises&lt;/a&gt;, &lt;a href=&#34;http://davin.50webs.com/research/1999/egs/InterTest.java&#34;&gt;InterTest.java&lt;/a&gt;&lt;/p&gt;
 
