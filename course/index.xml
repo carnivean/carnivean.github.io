@@ -138,9 +138,14 @@
 &lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;interfaces-abstrakte-finale-klassen&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/h2&gt;
+&lt;h2 id=&#34;interfaces-abstrakte-finale-klassen-lambda-ausdrücke&#34;&gt;Interfaces, abstrakte/finale Klassen, Lambda Ausdrücke&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+&lt;h4 id=&#34;interfaces&#34;&gt;Interfaces&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/lecture-notes/MIT1_00S12_Lec_15.pdf&#34;&gt;MIT OCW - Interfaces&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://davin.50webs.com/research/1999/egs/q14.pdf&#34;&gt;Interfaces Exercises&lt;/a&gt;, &lt;a href=&#34;http://davin.50webs.com/research/1999/egs/InterTest.java&#34;&gt;InterTest.java&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;threads&#34;&gt;Threads&lt;/h2&gt;
 
