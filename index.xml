@@ -212,7 +212,10 @@
 
 &lt;h5 id=&#34;threads-1&#34;&gt;Threads&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/Threads.pdf&#34;&gt;Threads zusammengestellte Klausuraufgaben&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Threads_Solution.pdf&#34;&gt;Threads_Solution.pdf&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/Threads.pdf&#34;&gt;Threads zusammengestellte Klausuraufgaben&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Threads_Solution.pdf&#34;&gt;Threads_Solution.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aufgabe &lt;code&gt;public static sum(int[] input, int numThreads)&lt;/code&gt;- Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThread.java&#34;&gt;SumThread.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThreadRunner.java&#34;&gt;SumThreadRunner.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThreadTest.java&#34;&gt;SumThreadTest.java&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;free-for-all&#34;&gt;Free for all :-)&lt;/h2&gt;
