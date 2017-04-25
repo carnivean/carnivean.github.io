@@ -144,6 +144,13 @@ figcaption h4 {
 pre,
 code {
   font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+  display: block;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 0 0 1rem 0;
+  overflow: auto;
+  padding: 9.5px;
+  white-space: pre-wrap;
 }
 
 pre {

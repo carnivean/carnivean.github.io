@@ -49,6 +49,93 @@
       <description>
 
 &lt;h1 id=&#34;ged-ss-17&#34;&gt;GED SS 17&lt;/h1&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#generell&#34;&gt;Generell&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#praktikum&#34;&gt;Praktikum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vorlesung&#34;&gt;Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-0&#34;&gt;Assignment 0&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#git&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-1&#34;&gt;Assignment 1&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#2DSmoothArray&#34;&gt;2DSmoothArray&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;generell&#34;&gt;Generell&lt;/h2&gt;
+
+&lt;h3 id=&#34;visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C++ wird NICHT standardmäßig installiert, wenn ihr VS 2015 installiert, ihr müsst dies entweder manuell auswählen oder nachträglich die Installation modifizieren&lt;/li&gt;
+&lt;li&gt;Restartet euren PC falls ihr kein C++ Projekt erstellen könnt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich habe eine Liste aus den häufigsten Fragen/Probleme der letzten Jahre zusammengestellt und werde diese während des Semesters immer wieder updaten, &lt;strong&gt;&lt;em&gt;momentaner Status: Bis Assignment 3&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;LInk: &lt;a href=&#34;https://carnivean.github.io/faq/&#34;&gt;FAQ GED&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/h2&gt;
+
+&lt;p&gt;Ich werde diesen Bereich während des Semesters laufend updaten und gerade in den Wochen vor der Klausur mit hoffentlich viel Material füllen.&lt;/p&gt;
+
+&lt;p&gt;Für den Moment gibt es den Link zu den Flashcards mit denen ich letztes Jahr für beides gelernt habe:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/join/fPxRyYeAB&#34;&gt;Quizlet: Sammlung aller Lernsets für GED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/204707976/praktikum-vorlesung-flash-cards/&#34;&gt;Quizlet: Praktikum und Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;praktikum&#34;&gt;Praktikum&lt;/h3&gt;
+
+&lt;p&gt;Comming soo&lt;/p&gt;
+
+&lt;h3 id=&#34;vorlesung&#34;&gt;Vorlesung&lt;/h3&gt;
+
+&lt;p&gt;Coming Soon
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;assignment-0&#34;&gt;Assignment 0&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr braucht nicht viel Git wissen für das GED Praktikum (auch wenn es extrem hilfreich für den weiteren Studienverlauf ist und es nach dem Studium erwartet wird ;))&lt;/li&gt;
+&lt;li&gt;Ein kurzes aber gutes Tutorial, wobei selbst das wahrscheinlich schon zu viel ist: &lt;a href=&#34;http://rogerdudler.github.io/git-guide/&#34;&gt;http://rogerdudler.github.io/git-guide/&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-1&#34;&gt;Assignment 1&lt;/h2&gt;
+
+&lt;h3 id=&#34;2dsmootharray&#34;&gt;2DSmoothArray&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn ihr malloc benutzen wollt für das Array, müsst Ihr &lt;code&gt;#include &amp;quot;stdlib.h&amp;quot;&lt;/code&gt; hinzufügen&lt;/li&gt;
+&lt;li&gt;smoothArray kann zum Beispiel über eine 4-fach verschachtelte Loops gelöst werden&lt;/li&gt;
+&lt;li&gt;smoothArray stellt sicher, dass eure Indizes für x und y &amp;gt; 0 aber x &amp;lt; width und y &amp;lt; height sind&lt;/li&gt;
+&lt;li&gt;rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

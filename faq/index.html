@@ -24,9 +24,80 @@
 	<title>Erik Kynast</title>
 </head>
 <body>
-<header>
-	<h1>Erik Kynast</h1>
-</header>
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Erik Kynast</a>
+    </div>
+
+
+    <div class="collapse navbar-collapse">
+
+
+      <ul class="nav navbar-nav navbar-right">
+
+
+
+
+        <li class="nav-item active">
+          <a href="/#about" data-target="#about">
+
+            <span>Home</span>
+          </a>
+        </li>
+
+
+
+
+
+
+        <li class="nav-item">
+          <a href="/#teaching" data-target="#teaching">
+
+            <span>Lehre</span>
+          </a>
+        </li>
+
+
+
+
+
+
+        <li class="nav-item">
+          <a href="/course/info1" data-target="course/info1">
+
+            <span>Info 1</span>
+          </a>
+        </li>
+
+
+
+
+
+
+        <li class="nav-item">
+          <a href="/course/ged" data-target="course/ged">
+
+            <span>GED</span>
+          </a>
+        </li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
 <section class="cd-faq">
 	<ul class="cd-faq-categories">
         
@@ -65,35 +136,35 @@
 			<li class="cd-faq-title"><h2>Assignment #0 (no Points)</h2></li>
 		
 			<li>
-				<a class="cd-faq-trigger" href="#0">I tried to clone the git repository and got a cryptic error message like <code>git.exe clone --progress -v https://tum3d.in.tum.de:80/git/SS16/GED/external
-C:\Users\Andreas\Desktop\external Cloning into
-C:\Users\Andreas\Desktop\external... fatal: unable to access
-https://tum3d.in.tum.de:80/git/SS16/GED/external/: SSL certificate problem: self signed certificate in certificate chain
-git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code>
+				<a class="cd-faq-trigger" href="#0">I tried to clone the git repository and got a cryptic error message like seen in the answer
  - What to do?</a>
 				<div class="cd-faq-content">
-					<p>If  you have already installed GIT sucessfully, your AntiVirus could stop the cloning process, so try to whiteflag GIT.</p>
+					<p>Error message:</p></p>
+
+<p><code>git.exe clone --progress -v https://tum3d.in.tum.de:80/git/SS16/GED/external
+C:\Users\Andreas\Desktop\external 
+ Test
+Cloning into C:\Users\Andreas\Desktop\external...
+fatal: unable to access https://tum3d.in.tum.de:80/git/SS16/GED/external/: SSL certificate problem: self signed certificate in certificate chain
+git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code></p>
+
+<p><p>If  you have already installed GIT sucessfully, your AntiVirus could stop the cloning process, so try to whiteflag GIT.</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">How do I sign up?</a>
+				<a class="cd-faq-trigger" href="#0">Ich habe keine Ahnung von Git - Help?!</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi cupiditate et laudantium esse adipisci consequatur modi possimus accusantium vero atque excepturi nobis in doloremque repudiandae soluta non minus dolore voluptatem enim reiciendis officia voluptates, fuga ullam? Voluptas reiciendis cumque molestiae unde numquam similique quas doloremque non, perferendis doloribus necessitatibus itaque dolorem quam officia atque perspiciatis dolore laudantium dolor voluptatem eligendi? Aliquam nulla unde voluptatum molestiae, eos fugit ullam, consequuntur, saepe voluptas quaerat deleniti. Repellendus magni sint temporibus, accusantium rem commodi?</p>
+					<p>Es gibt unzählige Guides, wenn man bei Google sucht. Ihr braucht für das Praktikum nicht viel, auch wenn es für den Rest des Studiums sehr hilfreich ist.</p></p>
+
+<p><p>Ein sehr kurzer Guide ist <a href="http://rogerdudler.github.io/git-guide/">git - the simple guide</a>.</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">What&rsquo;s your personal recommendation as GIT client?</a>
+				<a class="cd-faq-trigger" href="#0">Welchen Git Client würdest Du empfehlen?</a>
 				<div class="cd-faq-content">
-					<p>This is my personally opinon, you can use any client you want/prefer. But if you ask me, I can recommend GitKraken: <a href="https://www.gitkraken.com/">https://www.gitkraken.com/</a>.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do reviews work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					<p>Ihr könnt irgendeinen Client für das Praktikum verwendet. Aber falls ihr mich persönlich fragt, kann ich <a href="https://www.gitkraken.com/">GitKraken</a> empfehlen.</p>
 				</div>
 			</li>
 			
@@ -103,23 +174,43 @@ git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code>
 			<li class="cd-faq-title"><h2>Assignment #1 (no Points)</h2></li>
 		
 			<li>
-				<a class="cd-faq-trigger" href="#0">How does syncing work?</a>
+				<a class="cd-faq-trigger" href="#0">Error-Message with the getter-function for struct Color backgroundColor - Ungültiger Verweis auf nicht-statischen Member</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I upload files from my phone or tablet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, placeat quisquam rerum! Eligendi fugit dolorum tenetur modi fuga nisi rerum, autem officiis quaerat quos. Magni quia, quo quibusdam odio. Error magni aperiam amet architecto adipisci aspernatur! Officia, quaerat magni architecto nostrum magnam fuga nihil, ipsum laboriosam similique voluptatibus facilis nobis? Eius non asperiores, nesciunt suscipit veniam blanditiis veritatis provident possimus iusto voluptas, eveniet architecto quidem quos molestias, aperiam eum reprehenderit dolores ad deserunt eos amet. Vero molestiae commodi unde dolor dicta maxime alias, velit, nesciunt cum dolorem, ipsam soluta sint suscipit maiores mollitia assumenda ducimus aperiam neque enim! Quas culpa dolorum ipsam? Ipsum voluptatibus numquam natus? Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam rerum maiores officia! Beatae, molestias!</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I link to a file or folder?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					<p>Richtig wäre:
+<code>
+ConfigParser::Color ConfigParser::getBackgroundColor() {
+    return backgroundColor;
+}</code></p></p>
+
+<p>Das ist so eine Sache mit dem Scope Operator :: (Tipp: Benutz Ctrl+Space um zu sehen, was gerade sichtbar ist)</p>
+
+<p>Siehe auch <a href="https://msdn.microsoft.com/en-us/library/b451xz31.aspx">https://msdn.microsoft.com/en-us/library/b451xz31.aspx</a></p>
+
+<p>In deinem Fall sagt der Compiler:</p>
+
+<p><code>ConfigParser::backgroundColor</code> wird als statische Member Variable interpretiert,</p>
+
+<p>die aber nicht deklariert wurde in der Klasse. (also als static Color backgroundColor)</p>
+
+<hr />
+
+<p>D.h in einer Methode { &hellip; } werden alle Methoden und Variablen einer Klasse als statische Member interpretiert wenn sie mit dem Scope Operator verknüpft werden: Class::staticVariable / Class::staticMethod()</p>
+
+<hr />
+
+<p>Der Scope Operator gibt an sich an, wo Expressions deklariert wurden. Und je nach Kontext  wird er dann entsprechend verwendet um die Sichtbarkeiten aufzulösen.</p>
+
+<p>In deinem Fall musst du für den Compiler auflösen, wo das Struct Color deklariert wurde (eben in ConfigParser) und wo die Methode getBackgroundColor deklariert wurde (auch in ConfigParser)</p>
+
+<p>Die Variable backgroundColor ist in der Methode selber von der Klasse ConfigParser sichtbar, d.h dort braucht es dann keine Sichtbarkeitsauflösung und auch keinen Scope Operator.</p>
+
+<hr />
+
+<p>Ansonsten wird er auch verwendet in Verbindung mit namespaces. Z.b. sind die template libraries im std namespace deklariert.</p>
+
+<p>D.h dort braucht es dann zur Verwendung std::templateClass.</p>
+
+<p><p>Namespaces sind wichtig, um Zweideutigkeiten und Mehrfachdefinition zu vermeiden bzw. das Programm besser zu strukturieren.</p>
 				</div>
 			</li>
 			
@@ -129,30 +220,117 @@ git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code>
 			<li class="cd-faq-title"><h2>Assignment #2</h2></li>
 		
 			<li>
-				<a class="cd-faq-trigger" href="#0">How do I change my password?</a>
+				<a class="cd-faq-trigger" href="#0">Can&rsquo;t start TerrainViewer.exe - Crashes when choosing a file</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum autem consectetur labore eius tenetur esse, in temporibus sequi cum voluptatem vitae repellat nostrum odio perspiciatis dolores recusandae necessitatibus, unde, deserunt voluptas possimus veniam magni soluta deleniti! Architecto, quidem, totam. Fugit minus odit unde ea cupiditate ab aperiam sed dolore facere nihil laboriosam dolorum repellat deleniti aliquam fugiat laudantium delectus sint iure odio, necessitatibus rem quisquam! Ipsum praesentium quam nisi sint, impedit sapiente facilis laudantium mollitia quae fugiat similique. Dolor maiores aliquid incidunt commodi doloremque rem! Quaerat, debitis voluptatem vero qui enim, sunt reiciendis tempore inventore maxime quasi fugiat accusamus beatae modi voluptates iste officia esse soluta tempora labore quisquam fuga, cum. Sint nemo iste nulla accusamus quam qui quos, vero, minus id. Eius mollitia consequatur fugit nam consequuntur nesciunt illo id quis reprehenderit obcaecati voluptates corrupti, minus! Possimus, perspiciatis!</p>
+					<p>Der TerrainViewer hat teilweise Probleme mit dem FileChooser, der zu Abastürzen führt.</p></p>
+
+<p><p>Um das Problem zu umgehen, starte den Viewer über die Kommandozeile mit den Datein als Parametern:
+<code>TerrainViewer.exe terrain_heightfield_example.png terrain_color_example.png terrain_normal_example.png</code></p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">How do I delete my account?</a>
+				<a class="cd-faq-trigger" href="#0">compile Error: can&rsquo;t open GEDUtils.lib</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo tempore soluta, minus magnam non blanditiis dolore, in nam voluptas nobis minima deserunt deleniti id animi amet, suscipit consequuntur corporis nihil laborum facere temporibus. Qui inventore, doloribus facilis, provident soluta voluptas excepturi perspiciatis fugiat odit vero! Optio assumenda animi at! Assumenda doloremque nemo est sequi eaque, ipsum id, labore rem nisi, amet similique vel autem dolore totam facilis deserunt. Mollitia non ut libero unde accusamus praesentium sint maiores, illo, nemo aliquid?</p>
+					<p>Did you save the TerrainGenerator-Project in the projects folder as metioned in the assignment? If so, you have to use <code>../../../../external&hellip;</code>, if not you have to use <code>../../../external</code> ;)</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">How do I change my account settings?</a>
+				<a class="cd-faq-trigger" href="#0">GenerateAndStoreImages - Unzulässiger Aufruf einer nicht statischen Memberfunktion</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					<p>You cannot call a non-static member function as a static function from outside the class. Instanciate an object first:</p></p>
+
+<p><code>GEDUtils::TextureGenerator gen(...);
+gen.generateAndStoreImages(...)</code></p>
+
+<p>Genauer:</p>
+
+<p>There is no default constructor. Use our provided constructor instead:</p>
+
+<pre><code>        TextureGenerator(   const std::wstring&amp; texturePathLowFlat,
+                            const std::wstring&amp; texturePathLowSteep,
+                            const std::wstring&amp; texturePathHighFlat,
+                            const std::wstring&amp; texturePathHighSteep
+        );
+</code></pre>
+
+<p><p>Please see the header file for more information.</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">I forgot my password. How do I reset it?</a>
+				<a class="cd-faq-trigger" href="#0">LNK1104: cannot open file GEDUtilsd.lib</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum at aspernatur iure facere ab a corporis mollitia molestiae quod omnis minima, est labore quidem nobis accusantium ad totam sunt doloremque laudantium impedit similique iste quasi cum! Libero fugit at praesentium vero. Maiores non consequuntur rerum, nemo a qui repellat quibusdam architecto voluptatem? Sequi, possimus, cupiditate autem soluta ipsa rerum officiis cum libero delectus explicabo facilis, odit ullam aperiam reprehenderit! Vero ad non harum veritatis tempore beatae possimus, ex odio quo.</p>
+					<p>Die GEDUtils(d).lib befindet sich in <code>external/Tools/lib/VS2013/win32</code> für Visual Studio 2013 und in <code>external/Tools/lib/VS2012/win32</code> für VS2012.
+Das heißt:
+1) Geh auf das Projekt Game -&gt; Rechtsklick -&gt; Properties -&gt; Linker -&gt; General -&gt; Additional Library Directories
+2) Ändere dort den bestehenden Pfad (die as am Ende nat+rlich nicht schreiben)
+<code>........\external\Tools\lib\$(Platform)\a</code>
+in
+<code>........\external\Tools\lib\VS2013\$(Platform)\a</code>
+Für VS 2012 dann: <code>........\external\Tools\lib\VS2012\$(Platform)\a</code> )</p></p>
+
+<p><strong><em>Achtung: Die Einstellungen auch für den Release Mode machen, also bei Configuration auch Release oder All Configurations auswählen!</em></strong></p>
+
+<p><p>Falls der Linker die lib immer noch nicht findet, dann stimmt was mit den Relativen Pfaden <code>..\a</code> nicht.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Exception Error when creating a GEDUtils::TextureGenerator</a>
+				<div class="cd-faq-content">
+					<p>Wenn ihr den Pfad zu den Texturen angebt, denkt daran doppelte Backslashes zu verwenden, da der einfache, eine Escape Sequence beginnt. Also nicht &lsquo;&#92;&rsquo; sondern &lsquo;&#92;&#92;&rsquo;.</p></p>
+
+<p>Zudem ist zu beachten, dass Ihr die Größe des Vektors richtig angebt:</p>
+
+<p>The heightfield vector for that function should be of size (resolution + 1)² (the reason is explained in the DiamondSquare section). For now, you can fill the last row and column with 0 or some random value. Please try it out and let me know :)</p>
+
+<pre><code>        /**
+        Generate normal and color textures based on the heightfield properties and store them to the output filenames.
+        NOTE: resolution is the actual output resolution, thus the heightfield is supposed to be of size resolution + 1!
+        **/
+</code></pre>
+</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Mismatch in GEDUtils.lib und andere Fehler in GEDUtils.lib / GEDUtilsd.lib</a>
+				<div class="cd-faq-content">
+					<p>Wichtig ist darauf zu achten, dass Ihr GEDUtils.lib zu eurer Release KOnfiguration hinzufügt, und GEDUtilsd.lib zu eurer Debug Konfiguration, <strong><em>ABER JEWEILS NUR ZU DEM ENTSPRECHENDEN - NICHT BEIDEN</em></strong>.</p></p>
+
+<p>You messed up your dependencies. For the Debug build, add GEDUtilsd.lib, for the Release build, add GEDUtils.lib.</p>
+
+<p>Just remove them and add the correct ones as described in Ass. 2:</p>
+
+<p>Add the library <strong><em>GEDUtils.lib</em></strong> to the dependencies of the Release-Configurations and
+<strong><em>GEDUtilsd.lib</em></strong> to the Debug-Configurations (Properties -&gt; Configuration Properties -&gt;
+Linker -&gt; Input -&gt; Additional Dependencies).</p>
+
+<p><p>Then, if building does not work, try Clean or Rebuild.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Unable to find/include DXUT.h or other header files</a>
+				<div class="cd-faq-content">
+					<p>My guess would be that somehow or other your relative paths or the directory structure are messed up.</p></p>
+
+<p><p>Try to redo the &ldquo;Project Setup&rdquo; from Ass. 2 into a new empty directory. If that works, copy your existing code into that project.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Terraingenerator: &ldquo;Could not load the image&rdquo;</a>
+				<div class="cd-faq-content">
+					<p>Just try to start or execute the command from the same directory or from your GED folder.</p></p>
+
+<p>It seems that TerrainGenerator has problems to locate the external folder when executing the command from C:\Users&lt;name&gt;.</p>
+
+<p>It should definitely work within the external folder!</p>
+
+<p><p>Tipp: Use the windows explorer -&gt; go to the desired directory -&gt; type in cmd in the location bar -&gt; get a prompt using the current directory.</p>
 				</div>
 			</li>
 			
@@ -162,23 +340,74 @@ git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code>
 			<li class="cd-faq-title"><h2>Assignment #3</h2></li>
 		
 			<li>
-				<a class="cd-faq-trigger" href="#0">Can I have an invoice for my subscription?</a>
+				<a class="cd-faq-trigger" href="#0">Build problem with part 4 of assignment 3</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+					<p>In your solution explorer, within  &ldquo;Tools&rdquo; there should be a project called &ldquo;texconv&rdquo;. If that project failed to load (this could happen in VS2015), remove it and add it again from &ldquo;projects\DirectXTex\Texconv&rdquo;. (Right click: Add -&gt; Existing Project)</p></p>
+
+<p><p>All errors came from the wrong directory structure (programm coudnt find the paths to the pictures) , so double check that.</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">Why did my credit card or PayPal payment fail?</a>
+				<a class="cd-faq-trigger" href="#0">GEDUtilsd.lib linker error - value &lsquo;1700&rsquo; doesn&rsquo;t match value &lsquo;1800&rsquo; in &hellip;</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
+					<p>Wir stellen verschiedene Versionen für verschiedene VS Versionen zur Verfügung. Stellt sicher, dass ihr die richtige benutzt.</p>
 				</div>
 			</li>
 			
 			<li>
-				<a class="cd-faq-trigger" href="#0">Why does my bank statement show multiple charges for one upgrade?</a>
+				<a class="cd-faq-trigger" href="#0">std::wstring erzeugt memoryleak</a>
 				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					<p>Das Problem ist, dass der wstring an der Stelle, an der du _CrtDumpMemoryLeaks() aufrufst, noch nicht out-of-scope ist und damit noch Speicher belegt.</p></p>
+
+<p>Stattdessen solltest du zu Beginn deiner Anwendung folgendes aufrufen:</p>
+
+<p><p><code>_CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );</code>
+(siehe <a href="http://msdn.microsoft.com/de-de/library/x98tx3cf.aspx">http://msdn.microsoft.com/de-de/library/x98tx3cf.aspx</a> ), dann erfolgt die Ausgabe automatisch NACH Beendigung der main()-Methode.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">DDS files can&rsquo;t be openend.</a>
+				<div class="cd-faq-content">
+					<p>Use the DirectX Texture Tool (from the DirectX SDK).</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">Texture blending to smooth? - The included texture blending snippet states that the blending may be to smooth.</a>
+				<div class="cd-faq-content">
+					<p>Ihr könnt die Funktion zum smoothen verändern, wenn ihr dies wollt, müsst es aber nicht. Ausprobieren könnt ihr zum Beispiel Polynome oder Exp-Funktionen.</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">How to calculate the normal vectors</a>
+				<div class="cd-faq-content">
+					<p>Compute the normals by using the formulae on slide 3(14). The central differences are explained on the same slide as well. For understanding them, just keep in mind that the derivative is obtained by the slope triangle.</p></p>
+
+<p>Normalizing means scaling the vector to unit length, i.e., multiplying the vector by the reciprocal of its length.</p>
+
+<p>There are two was calcing the normals:</p>
+
+<p>You calc the x and y vector (which are shown in the picture on the slide) with central differences and than the normal is the cross product of x and y</p>
+
+<p>You calc the x and y value of the normal by central differences and multiply it by -1 and the z component than is 1 (this is the formular which you can see on the lower right on the slides)</p>
+
+<p><p>Zusätzliche Kommentare:
+  - The z in [0,1] just mens that the height field consists of values between 0 and 1 (as generated by the DiamondSquare algorithm, not by random).
+  - You have to bring x,y and z in the same unit space, so multiply x and y by the resolution before normalization ;)</p>
+				</div>
+			</li>
+			
+			<li>
+				<a class="cd-faq-trigger" href="#0">What value does the factor C_i have during the Alpha Blending?</a>
+				<div class="cd-faq-content">
+					<p>On slide 3(18):</p></p>
+
+<p>C_i: The color after blending</p>
+
+<p><p>c_i: The original color</p>
 				</div>
 			</li>
 			
@@ -187,515 +416,67 @@ git did not exit cleanly (exit code 128) (453 ms @ 18.04.2016 18:40:24)</code>
 		<ul id="ass04" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #4</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">Can I specify my own private key?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">My files are missing! How do I get them back?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I access my account data?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I control if other search engines can link to my profile?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass05" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #5</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass06" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #6</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass07" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #7</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass08" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #8</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass09" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #9</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="ass10" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Assignment #10</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<ul id="bonusass" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Bonus Assignment</h2></li>
 		
-			<li>
-				<a class="cd-faq-trigger" href="#0">What should I do if my order hasn&rsquo;t been delivered yet?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
-			<li>
-				<a class="cd-faq-trigger" href="#0">When will my order ship?</a>
-				<div class="cd-faq-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
-				</div>
-			</li>
-			
 		</ul>
 		
 	</div>
 	<a href="#0" class="cd-close-panel">Close</a>
 </section>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      © 2017 Erik Kynast ·
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
 <script src="http://www.erikkynast.de/faq/js/jquery-2.1.1.js"></script>
 <script src="http://www.erikkynast.de/faq/js/jquery.mobile.custom.min.js"></script>
 <script src="http://www.erikkynast.de/faq/js/main.js"></script>
