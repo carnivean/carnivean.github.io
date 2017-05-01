@@ -130,6 +130,23 @@
 
 <h1 id="ged-ss-17">GED SS 17</h1>
 
+<h2 id="zusätzliche-officestunde-am-samstag">Zusätzliche Officestunde am Samstag</h2>
+
+<hr />
+
+<p><span style="color:green">Samstag 06.05.: 11 - 18 Uhr, Raum TBA</span></p>
+
+<hr />
+
+<h2 id="aktuelles">Aktuelles</h2>
+
+<p>Die letzten Updates:</p>
+
+<ul>
+<li>Assignment 2: Preparation, Project Setup, Diamond-Square-Algorithmus hinzugefügt - 01.05.</li>
+<li>Assignment 1: VectorSort und ConfigurationParser hinzugefügt - 26.04.</li>
+</ul>
+
 <h2 id="overview">Overview</h2>
 
 <ol>
@@ -137,6 +154,7 @@
 
 <ul>
 <li><a href="#visual-studio-issues">Visual Studio Issues</a></li>
+<li><a href="#bewertung">Bewertung der Abgaben</a></li>
 <li><a href="#faq">FAQ</a></li>
 </ul></li>
 <li><a href="#klausurvorbereitung">Klausurvorbereitung</a>
@@ -145,6 +163,7 @@
 <li><a href="#praktikum">Praktikum</a></li>
 <li><a href="#vorlesung">Vorlesung</a></li>
 </ul></li>
+<li><a href="#schwierigkeitsgrad">Schwierigkeitsgrad</a></li>
 <li><a href="#assignment-0">Assignment 0</a>
 
 <ul>
@@ -153,7 +172,15 @@
 <li><a href="#assignment-1">Assignment 1</a>
 
 <ul>
-<li><a href="#2DSmoothArray">2DSmoothArray</a>
+<li><a href="#2dsmootharray">2DSmoothArray</a></li>
+<li><a href="#vectorsort">VectorSort</a></li>
+</ul></li>
+<li><a href="#assignment-2">Assignment 2 - Fractal Landscape Generation</a>
+
+<ul>
+<li><a href="#projectsetup">Project Setup - 1 Punkt</a></li>
+<li><a href="#cmdline">Command Line and Test Heightfield</a></li>
+<li><a href="#dsa">Diamond-Square-Algorithmus</a>
 
          </div>
       
@@ -171,11 +198,28 @@
 <li>Restartet euren PC falls ihr kein C++ Projekt erstellen könnt</li>
 </ul>
 
+<h3 id="bewertung">Bewertung der Abgaben</h3>
+
+<p>Hier einige Punkte, wie ich (und die anderen Tutoren), eure Abgaben bewerten:</p>
+
+<ul>
+<li>Ich clone euer Repo jedesmal komplett frisch und nutze den LETZTEN commit vor der Deadline, wenn ich einen anderen (älteren) commit bewerten soll, dann macht dies bitte in der Readme deutlich</li>
+<li><img src="/img/diff6.png" alt="inferno" /> !!!  Wenn Euer Projekt, nachdem man es frisch geclont hat, nicht compiliert, dann wird es mit 0 Punkten für die Woche bewertet !!!
+
+<ul>
+<li>also testet dies bitte, indem ihr euer Projekt selber einmal in ein neues Verzeichnis clont und es dann startet</li>
+</ul></li>
+<li>Memory Leaks in eurem Code werden ab dem 2. oder 3. Assignment mit -1 P bewertet, egal wie groß oder klein der Leak ist<br /></li>
+<li>Achtet darauf, dass ihr stets Debug und Release testet, da ich auch beides tun werden</li>
+<li>Wenn euer Endprodukt richtig aussieht, sprich zB das Terrain richtig gerendet wird, dann bekommt ihr auch die Punkte, auch wenn ihr zB die Werte auf 0.99 statt auf 1.0 begrenzt &ndash;&gt; es soll ein Engine werden, Aussehen &gt; physikalische Korrektheit</li>
+<li>Ja es gibt für einige der Assignments Lösungen, die man mit etwas Googlen findet, nur können wir das auch&hellip;</li>
+</ul>
+
 <h3 id="faq">FAQ</h3>
 
 <ul>
 <li>Ich habe eine Liste aus den häufigsten Fragen/Probleme der letzten Jahre zusammengestellt und werde diese während des Semesters immer wieder updaten, <strong><em>momentaner Status: Bis Assignment 3</em></strong></li>
-<li>LInk: <a href="/faq/">FAQ GED</a>
+<li>Link: <a href="/faq/">FAQ GED</a>
 
          </div>
       
@@ -196,7 +240,7 @@
 
 <h3 id="praktikum">Praktikum</h3>
 
-<p>Comming soo</p>
+<p>Coming Soon</p>
 
 <h3 id="vorlesung">Vorlesung</h3>
 
@@ -207,9 +251,30 @@
          <div class="row part">
            </p>
 
+<h2 id="schwierigkeitsgrad">Schwierigkeitsgrad</h2>
+
+<p>Ich werde alle Aufgaben des Praktikums von der Schwierigkeit einordnen. Das hat für euch den Vorteil, dass ihr vorher schon sehen könnt, wie schwierig diese Woche wird und wie viel Zeit ihr ungefähr brauchen werdet - wichtig ist nur anzumerken, dass ist eine rein subjektive Einschätzung, andere Leute würde vielleicht völlig andere Wert vergeben, aber ich tue mein Bestes :).</p>
+
+<ol>
+<li>Easy <img src="/img/diff1.png" alt="easy" /></li>
+<li>Noch einfach <img src="/img/diff2.png" alt="noch einfach" /></li>
+<li>Mittel <img src="/img/diff3.png" alt="mittel" /></li>
+<li>Es wird anspruchsvoll <img src="/img/diff4.png" alt="anspruchsvoll" /></li>
+<li>Life is rough <img src="/img/diff5.png" alt="rough" /></li>
+<li>Inferno <img src="/img/diff6.png" alt="inferno" /></li>
+</ol>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
 <h2 id="assignment-0">Assignment 0</h2>
 
-<h3 id="git">Git</h3>
+<h3 id="git">Git - Easy <img src="/img/diff1.png" alt="easy" /></h3>
+
+<p>-<strong><em>Im Moment müsst ihr <code>git clone https://tum3d.in.tum.de:80/git/SS17/GED/external</code> verwenden, da die Portweiterleitung des Servers nicht funktioniert</em></strong></p>
 
 <ul>
 <li>Ihr braucht nicht viel Git wissen für das GED Praktikum (auch wenn es extrem hilfreich für den weiteren Studienverlauf ist und es nach dem Studium erwartet wird ;))</li>
@@ -223,19 +288,123 @@
 
 <h2 id="assignment-1">Assignment 1</h2>
 
-<h3 id="2dsmootharray">2DSmoothArray</h3>
+<h3 id="2dsmootharray">2DSmoothArray - Noch einfach <img src="/img/diff2.png" alt="noch einfach" /></h3>
 
 <ul>
 <li>Wenn ihr malloc benutzen wollt für das Array, müsst Ihr <code>#include &quot;stdlib.h&quot;</code> hinzufügen</li>
 <li>smoothArray kann zum Beispiel über eine 4-fach verschachtelte Loops gelöst werden</li>
 <li>smoothArray stellt sicher, dass eure Indizes für x und y &gt; 0 aber x &lt; width und y &lt; height sind</li>
-<li>rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten
+<li>rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten</li>
+</ul>
+
+<h3 id="vectorsort">Vectorsort - Mittel <img src="/img/diff3.png" alt="mittel" /></h3>
+
+<ul>
+<li>Ihr müsst mit großer Wahrscheinlichkeit folgendes einfügen, um die LIbs zu importieren:</li>
+</ul>
+
+<pre><code class="language-c++">#include &lt;vector&gt;
+#include &lt;iostream&gt;
+#include &lt;algorithm&gt;
+</code></pre>
+
+<ul>
+<li>Um die neue Zahl hinten an den Vektor anzuhängen, könnt ihr <code>vec.push_back(input);</code> nutzen</li>
+<li>Zum Sortieren müsst ihr einerseits eine Funktion deklarieren, die Werte miteinander vergleicht, und dann <code>std::sort</code> benutzen, um zB aufsteigend zu sortieren:</li>
+</ul>
+
+<pre><code class="language-c++">bool sort_asc(int i, int j) { return (i &lt; j);
+// und später im Code
+std::sort(vec.begin(), vec.end(), sort_asc);
+</code></pre>
+
+<h3 id="configurationparser-mittel-mittel-img-diff3-png">ConfigurationParser - Mittel <img src="/img/diff3.png" alt="mittel" /></h3>
+
+<ul>
+<li>Den ConfigParser werdet ihr den Rest des Praktikums verwenden, also nimmt euch ein bisschen Zeit für ihn</li>
+<li>Eine Datei öffnen könnt ihr mit Hilfe von:</li>
+</ul>
+
+<pre><code>  ifstream fs;
+    fs.open(file);
+    if (!fs.is_open()) {
+        cout &lt;&lt; &quot;Wrong Filepath&quot; &lt;&lt; endl;
+        return;
+    }
+</code></pre>
+
+<ul>
+<li>Zur Ausgabe der Werte könnt ihr folgende Methode verwenden:</li>
+</ul>
+
+<pre><code>void ConfigParser::toStdOut()
+{
+    std::cout &lt;&lt; &quot;Spinning: &quot; &lt;&lt; this-&gt;spinning &lt;&lt; std::endl;
+    std::cout &lt;&lt; &quot;spinSpeed: &quot; &lt;&lt; this-&gt;spinSpeed &lt;&lt; std::endl;
+    std::cout &lt;&lt; &quot;bg Color: &quot; &lt;&lt; this-&gt;backgroundColor.r &lt;&lt; &quot;, &quot; &lt;&lt; this-&gt;backgroundColor.b &lt;&lt; &quot;, &quot; &lt;&lt; this-&gt;backgroundColor.g &lt;&lt; std::endl;
+    std::cout &lt;&lt; &quot;terrainWidth: &quot; &lt;&lt; this-&gt;terrainWidth &lt;&lt; std::endl;
+    std::cout &lt;&lt; &quot;terrainDepth: &quot; &lt;&lt; this-&gt;terrainDepth &lt;&lt; std::endl;
+    std::cout &lt;&lt; &quot;terrainHeight: &quot; &lt;&lt; this-&gt;terrainHeight &lt;&lt; std::endl;
+}
+</code></pre>
+
+<ul>
+<li>die <code>game.cfg</code> muss in das <code>SolutionName\ConfigurationParser</code> Verzeichnis damit es gefunden wird, wenn man das Programm mit Strg+F5 startet
 
          </div>
       
          <div class="row part">
            </li>
 </ul>
+
+<h2 id="assignment-1-1">Assignment 2 - Fractal Landscape Generation</h2>
+
+<h3 id="preparation">Preparation</h3>
+
+<p>Das sieht schon ziemlich cool aus, oder? :)</p>
+
+<h3 id="projectsetup">Project Setup - Easy <img src="/img/diff1.png" alt="easy" /></h3>
+
+<ul>
+<li>wenn es bei euch mit dem angegebenen Pfad nicht funktioniert, dann probiert es mit mehr oder weniger <code>..</code></li>
+<li>Achtet darauf, dass ihr die Include Verzeichnisse und Library Verzeichnisse für beide Konfigurationen einstellt und nicht nur für Debug oder Release</li>
+</ul>
+
+<h3 id="cmdline">Command Line and Test Heightfield - Mittel <img src="/img/diff3.png" alt="mittel" /></h3>
+
+<ul>
+<li>mit <code>generator.seed((unsigned long)time(nullptr));</code> könnt ihr dem Generator die aktuellen Zeit als Startwert geben um zufällige Ergebnisse zu bekommen</li>
+<li>Eure main Methode muss wie folgt aussehen <code>int _tmain(int argc, _TCHAR* argv[])</code>, wenn ihr nicht _tmain verwendet, wird das Parsen der Argumente nicht funktionieren !</li>
+<li>Damit ihr das Programm mit Command Line ARguments startet, dann müsst ihr, Rechtsklick auf das Projekt &ndash;&gt; Debugging &ndash;&gt; Command Line Arguments und dort zB folgendes hinschreiben <code>-r 8 -o_height terrain_height.png -o_color terrain_color.png -o_normal terrain_normal.png</code> (der Wert für die Resolution wird nachhe rnatürlich höher sein)</li>
+<li>Überprüft zuerst die gesammte Anzahl an Argumente, ob diese stimmt und danach die einzelnen Argumente</li>
+<li>Die Überprüfung der Argumente könnte wie folgt aussehen: <code>!_tcscmp(argv[1], _T(&quot;-r&quot;))</code></li>
+<li>Die Konvertierung der Eingaben geht wie folgt: <code>_tstoi(argv[2])</code></li>
+<li>Ihr müsst zuerst ein <em>std::wstring</em> aus den Parametern erzeugen und diesen dann in einen &ldquo;normalen&rdquo; <em>std::string</em> konvertieren, ein kleines Beispiel:</li>
+</ul>
+
+<pre><code>  std::wstring temp_normal(argv[8]);
+  std::string pNormal = std::string(temp_normal.begin(), temp_normal.end());        
+</code></pre>
+
+<ul>
+<li>Für die normalverteilten Zufallswerte müsst ihr erst die Mitte und Standardabweichung berechnen und dann:
+<code>std::normal_distribution&lt;float&gt; distribution(midPoint, stdDev);</code></li>
+</ul>
+
+<h3 id="dsa">Diamond-Square-Algorithmus - Es wird anspruchsvoll <img src="/img/diff4.png" alt="anspruchsvoll" /></h3>
+
+<ul>
+<li>Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter <a href="/algorithms/dsa">/algorithms/dsa</a> finden</li>
+<li>Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen</li>
+<li>Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5</li>
+<li>Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies</li>
+</ul>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
 
          </div>
       

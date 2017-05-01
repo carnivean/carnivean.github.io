@@ -19,6 +19,23 @@
 
 &lt;h1 id=&#34;ged-ss-17&#34;&gt;GED SS 17&lt;/h1&gt;
 
+&lt;h2 id=&#34;zusätzliche-officestunde-am-samstag&#34;&gt;Zusätzliche Officestunde am Samstag&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Samstag 06.05.: 11 - 18 Uhr, Raum TBA&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
+
+&lt;p&gt;Die letzten Updates:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Assignment 2: Preparation, Project Setup, Diamond-Square-Algorithmus hinzugefügt - 01.05.&lt;/li&gt;
+&lt;li&gt;Assignment 1: VectorSort und ConfigurationParser hinzugefügt - 26.04.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
 &lt;ol&gt;
@@ -26,6 +43,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bewertung&#34;&gt;Bewertung der Abgaben&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/a&gt;
@@ -34,6 +52,7 @@
 &lt;li&gt;&lt;a href=&#34;#praktikum&#34;&gt;Praktikum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#vorlesung&#34;&gt;Vorlesung&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#assignment-0&#34;&gt;Assignment 0&lt;/a&gt;
 
 &lt;ul&gt;
@@ -42,7 +61,15 @@
 &lt;li&gt;&lt;a href=&#34;#assignment-1&#34;&gt;Assignment 1&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#2DSmoothArray&#34;&gt;2DSmoothArray&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#2dsmootharray&#34;&gt;2DSmoothArray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vectorsort&#34;&gt;VectorSort&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#projectsetup&#34;&gt;Project Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmdline&#34;&gt;Command Line and Test Heightfield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -56,11 +83,28 @@
 &lt;li&gt;Restartet euren PC falls ihr kein C++ Projekt erstellen könnt&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&#34;bewertung&#34;&gt;Bewertung der Abgaben&lt;/h3&gt;
+
+&lt;p&gt;Hier einige Punkte, wie ich (und die anderen Tutoren), eure Abgaben bewerten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich clone euer Repo jedesmal komplett frisch und nutze den LETZTEN commit vor der Deadline, wenn ich einen anderen (älteren) commit bewerten soll, dann macht dies bitte in der Readme deutlich&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt; !!!  Wenn Euer Projekt, nachdem man es frisch geclont hat, nicht compiliert, dann wird es mit 0 Punkten für die Woche bewertet !!!
+
+&lt;ul&gt;
+&lt;li&gt;also testet dies bitte, indem ihr euer Projekt selber einmal in ein neues Verzeichnis clont und es dann startet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Memory Leaks in eurem Code werden ab dem 2. oder 3. Assignment mit -1 P bewertet, egal wie groß oder klein der Leak ist&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr stets Debug und Release testet, da ich auch beides tun werden&lt;/li&gt;
+&lt;li&gt;Wenn euer Endprodukt richtig aussieht, sprich zB das Terrain richtig gerendet wird, dann bekommt ihr auch die Punkte, auch wenn ihr zB die Werte auf 0.99 statt auf 1.0 begrenzt &amp;ndash;&amp;gt; es soll ein Engine werden, Aussehen &amp;gt; physikalische Korrektheit&lt;/li&gt;
+&lt;li&gt;Ja es gibt für einige der Assignments Lösungen, die man mit etwas Googlen findet, nur können wir das auch&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ich habe eine Liste aus den häufigsten Fragen/Probleme der letzten Jahre zusammengestellt und werde diese während des Semesters immer wieder updaten, &lt;strong&gt;&lt;em&gt;momentaner Status: Bis Assignment 3&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;LInk: &lt;a href=&#34;https://carnivean.github.io/faq/&#34;&gt;FAQ GED&lt;/a&gt;
+&lt;li&gt;Link: &lt;a href=&#34;https://carnivean.github.io/faq/&#34;&gt;FAQ GED&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -77,16 +121,33 @@
 
 &lt;h3 id=&#34;praktikum&#34;&gt;Praktikum&lt;/h3&gt;
 
-&lt;p&gt;Comming soo&lt;/p&gt;
+&lt;p&gt;Coming Soon&lt;/p&gt;
 
 &lt;h3 id=&#34;vorlesung&#34;&gt;Vorlesung&lt;/h3&gt;
 
 &lt;p&gt;Coming Soon
 &lt;split&gt;&lt;/p&gt;
 
+&lt;h2 id=&#34;schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/h2&gt;
+
+&lt;p&gt;Ich werde alle Aufgaben des Praktikums von der Schwierigkeit einordnen. Das hat für euch den Vorteil, dass ihr vorher schon sehen könnt, wie schwierig diese Woche wird und wie viel Zeit ihr ungefähr brauchen werdet - wichtig ist nur anzumerken, dass ist eine rein subjektive Einschätzung, andere Leute würde vielleicht völlig andere Wert vergeben, aber ich tue mein Bestes :).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Life is rough &lt;img src=&#34;https://carnivean.github.io/img/diff5.png&#34; alt=&#34;rough&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;assignment-0&#34;&gt;Assignment 0&lt;/h2&gt;
 
-&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+&lt;h3 id=&#34;git&#34;&gt;Git - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;p&gt;-&lt;strong&gt;&lt;em&gt;Im Moment müsst ihr &lt;code&gt;git clone https://tum3d.in.tum.de:80/git/SS17/GED/external&lt;/code&gt; verwenden, da die Portweiterleitung des Servers nicht funktioniert&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ihr braucht nicht viel Git wissen für das GED Praktikum (auch wenn es extrem hilfreich für den weiteren Studienverlauf ist und es nach dem Studium erwartet wird ;))&lt;/li&gt;
@@ -96,15 +157,115 @@
 
 &lt;h2 id=&#34;assignment-1&#34;&gt;Assignment 1&lt;/h2&gt;
 
-&lt;h3 id=&#34;2dsmootharray&#34;&gt;2DSmoothArray&lt;/h3&gt;
+&lt;h3 id=&#34;2dsmootharray&#34;&gt;2DSmoothArray - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Wenn ihr malloc benutzen wollt für das Array, müsst Ihr &lt;code&gt;#include &amp;quot;stdlib.h&amp;quot;&lt;/code&gt; hinzufügen&lt;/li&gt;
 &lt;li&gt;smoothArray kann zum Beispiel über eine 4-fach verschachtelte Loops gelöst werden&lt;/li&gt;
 &lt;li&gt;smoothArray stellt sicher, dass eure Indizes für x und y &amp;gt; 0 aber x &amp;lt; width und y &amp;lt; height sind&lt;/li&gt;
-&lt;li&gt;rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten
+&lt;li&gt;rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vectorsort&#34;&gt;Vectorsort - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr müsst mit großer Wahrscheinlichkeit folgendes einfügen, um die LIbs zu importieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;lt;vector&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um die neue Zahl hinten an den Vektor anzuhängen, könnt ihr &lt;code&gt;vec.push_back(input);&lt;/code&gt; nutzen&lt;/li&gt;
+&lt;li&gt;Zum Sortieren müsst ihr einerseits eine Funktion deklarieren, die Werte miteinander vergleicht, und dann &lt;code&gt;std::sort&lt;/code&gt; benutzen, um zB aufsteigend zu sortieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;bool sort_asc(int i, int j) { return (i &amp;lt; j);
+// und später im Code
+std::sort(vec.begin(), vec.end(), sort_asc);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;configurationparser-mittel-mittel-img-diff3-png&#34;&gt;ConfigurationParser - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Den ConfigParser werdet ihr den Rest des Praktikums verwenden, also nimmt euch ein bisschen Zeit für ihn&lt;/li&gt;
+&lt;li&gt;Eine Datei öffnen könnt ihr mit Hilfe von:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  ifstream fs;
+    fs.open(file);
+    if (!fs.is_open()) {
+        cout &amp;lt;&amp;lt; &amp;quot;Wrong Filepath&amp;quot; &amp;lt;&amp;lt; endl;
+        return;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zur Ausgabe der Werte könnt ihr folgende Methode verwenden:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;void ConfigParser::toStdOut()
+{
+    std::cout &amp;lt;&amp;lt; &amp;quot;Spinning: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinning &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;spinSpeed: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinSpeed &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;bg Color: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.r &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.b &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.g &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainWidth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainWidth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainDepth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainDepth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainHeight: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainHeight &amp;lt;&amp;lt; std::endl;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;die &lt;code&gt;game.cfg&lt;/code&gt; muss in das &lt;code&gt;SolutionName\ConfigurationParser&lt;/code&gt; Verzeichnis damit es gefunden wird, wenn man das Programm mit Strg+F5 startet
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-1-1&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/h2&gt;
+
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+
+&lt;p&gt;Das sieht schon ziemlich cool aus, oder? :)&lt;/p&gt;
+
+&lt;h3 id=&#34;projectsetup&#34;&gt;Project Setup - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wenn es bei euch mit dem angegebenen Pfad nicht funktioniert, dann probiert es mit mehr oder weniger &lt;code&gt;..&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr die Include Verzeichnisse und Library Verzeichnisse für beide Konfigurationen einstellt und nicht nur für Debug oder Release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cmdline&#34;&gt;Command Line and Test Heightfield - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mit &lt;code&gt;generator.seed((unsigned long)time(nullptr));&lt;/code&gt; könnt ihr dem Generator die aktuellen Zeit als Startwert geben um zufällige Ergebnisse zu bekommen&lt;/li&gt;
+&lt;li&gt;Eure main Methode muss wie folgt aussehen &lt;code&gt;int _tmain(int argc, _TCHAR* argv[])&lt;/code&gt;, wenn ihr nicht _tmain verwendet, wird das Parsen der Argumente nicht funktionieren !&lt;/li&gt;
+&lt;li&gt;Damit ihr das Programm mit Command Line ARguments startet, dann müsst ihr, Rechtsklick auf das Projekt &amp;ndash;&amp;gt; Debugging &amp;ndash;&amp;gt; Command Line Arguments und dort zB folgendes hinschreiben &lt;code&gt;-r 8 -o_height terrain_height.png -o_color terrain_color.png -o_normal terrain_normal.png&lt;/code&gt; (der Wert für die Resolution wird nachhe rnatürlich höher sein)&lt;/li&gt;
+&lt;li&gt;Überprüft zuerst die gesammte Anzahl an Argumente, ob diese stimmt und danach die einzelnen Argumente&lt;/li&gt;
+&lt;li&gt;Die Überprüfung der Argumente könnte wie folgt aussehen: &lt;code&gt;!_tcscmp(argv[1], _T(&amp;quot;-r&amp;quot;))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Die Konvertierung der Eingaben geht wie folgt: &lt;code&gt;_tstoi(argv[2])&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ihr müsst zuerst ein &lt;em&gt;std::wstring&lt;/em&gt; aus den Parametern erzeugen und diesen dann in einen &amp;ldquo;normalen&amp;rdquo; &lt;em&gt;std::string&lt;/em&gt; konvertieren, ein kleines Beispiel:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  std::wstring temp_normal(argv[8]);
+  std::string pNormal = std::string(temp_normal.begin(), temp_normal.end());        
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Für die normalverteilten Zufallswerte müsst ihr erst die Mitte und Standardabweichung berechnen und dann:
+&lt;code&gt;std::normal_distribution&amp;lt;float&amp;gt; distribution(midPoint, stdDev);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus - Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter &lt;a href=&#34;https://carnivean.github.io/algorithms/dsa&#34;&gt;/algorithms/dsa&lt;/a&gt; finden&lt;/li&gt;
+&lt;li&gt;Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen&lt;/li&gt;
+&lt;li&gt;Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5&lt;/li&gt;
+&lt;li&gt;Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
 </description>
     </item>
     
