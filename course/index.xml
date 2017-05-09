@@ -65,6 +65,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#2dsmootharray&#34;&gt;2DSmoothArray&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#vectorsort&#34;&gt;VectorSort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configparser&#34;&gt;ConfigurationParser&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/a&gt;
 
@@ -189,7 +190,7 @@
 std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;configurationparser-mittel-mittel-img-diff3-png&#34;&gt;ConfigurationParser - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;configparser&#34;&gt;ConfigurationParser - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Den ConfigParser werdet ihr den Rest des Praktikums verwenden, also nimmt euch ein bisschen Zeit für ihn&lt;/li&gt;
