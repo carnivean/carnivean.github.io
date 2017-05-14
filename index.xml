@@ -74,14 +74,18 @@
 
 &lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
 
-&lt;p&gt;Die Tutotstunde am Mittwoch entfällt auf Grund der FVV, bitte auf die anderen Gruppen verteilen bzw. am Samstag zur Officestunde kommen :-).&lt;/p&gt;
-
-&lt;p&gt;Die letzten Updates:&lt;/p&gt;
+&lt;p&gt;Die Headerdateien für das 2. Assignment wurden anscheinend vergessen ins Repo zu stellen&amp;hellip;:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Assignment 2: Preparation, Project Setup, Diamond-Square-Algorithmus hinzugefügt - 01.05.&lt;/li&gt;
-&lt;li&gt;Assignment 1: VectorSort und ConfigurationParser hinzugefügt - 26.04.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://carnivean.github.io/src/SimpleImage.h&#34;&gt;SimpleImage.h&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://carnivean.github.io/src/TextureGenerator.h&#34;&gt;TextureGenerator.h&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Die beiden Datein gehören ins &lt;code&gt;../Tools/include&lt;/code&gt; Verzeichnis&lt;/p&gt;
+
+&lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
+
+&lt;p&gt;I am busy right now.. sorry xD&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
