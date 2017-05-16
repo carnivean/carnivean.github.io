@@ -29,12 +29,9 @@
 
 &lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
 
-&lt;p&gt;Die Headerdateien für das 2. Assignment wurden anscheinend vergessen ins Repo zu stellen&amp;hellip;:&lt;/p&gt;
+&lt;p&gt;Alle Header Dateien aus dem letzten Jahr&amp;hellip;:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://carnivean.github.io/src/SimpleImage.h&#34;&gt;SimpleImage.h&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://carnivean.github.io/src/TextureGenerator.h&#34;&gt;TextureGenerator.h&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/include.zip&#34;&gt;include.zip&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Die beiden Datein gehören ins &lt;code&gt;../Tools/include&lt;/code&gt; Verzeichnis&lt;/p&gt;
 
