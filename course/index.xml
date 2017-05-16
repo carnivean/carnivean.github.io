@@ -266,7 +266,7 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;h3 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus - Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter &lt;a href=&#34;https://carnivean.github.io/algorithms/dsa&#34;&gt;/algorithms/dsa&lt;/a&gt; finden&lt;/li&gt;
+&lt;li&gt;Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter &lt;a href=&#34;https://carnivean.github.io/algorithms/dsa&#34;&gt;/algorithms/dsa&lt;/a&gt; finden - not yet, leider bisher keine Zeit gehabt&amp;hellip; - Kommt definitiv vor der Klausur zur Vorbereitung&lt;/li&gt;
 &lt;li&gt;Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen&lt;/li&gt;
 &lt;li&gt;Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5&lt;/li&gt;
 &lt;li&gt;Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies&lt;/li&gt;
