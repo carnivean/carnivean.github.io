@@ -23,21 +23,17 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Samstag 20.05.: 11 - 15 Uhr, Raum 02.11.018&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Donnerstag 25.05.: 10 - 14 Uhr, Raum 02.11.018&lt;/span&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
 
-&lt;p&gt;Alle Header Dateien aus dem letzten Jahr&amp;hellip;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/include.zip&#34;&gt;include.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Die beiden Datein gehören ins &lt;code&gt;../Tools/include&lt;/code&gt; Verzeichnis&lt;/p&gt;
+&lt;p&gt;Die Officestunde ist diese Woche am Donnerstag !&lt;/p&gt;
 
 &lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
 
-&lt;p&gt;I am busy right now.. sorry xD&lt;/p&gt;
+&lt;p&gt;21.05.: Assignment 03 komplett hinzugefügt, einige kleine Änderungen für Assignment 02&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
@@ -73,7 +69,15 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#projectsetup&#34;&gt;Project Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#cmdline&#34;&gt;Command Line and Test Heightfield&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass03&#34;&gt;Assignment 3 - Texture Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#normalcalc&#34;&gt;Normal Calculation - 3 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textureblending&#34;&gt;Texture Blending - 5 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -267,9 +271,85 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;li&gt;Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen&lt;/li&gt;
 &lt;li&gt;Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5&lt;/li&gt;
 &lt;li&gt;Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Color- und Normalmaps wie folgt erstellen:&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;GEDUtils::TextureGenerator TexGen(L&amp;quot;../../../external/textures/gras15.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/ground02.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/pebble03.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/rock4.jpg&amp;quot;);
+    TexGen.generateAndStoreImages(heightField, resolution - 1, std::wstring(sColor.begin(), sColor.end()),
+        std::wstring(sNormal.begin(), sNormal.end()));
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ass03&#34;&gt;Assignment 03 - Texture Generation&lt;/h2&gt;
+
+&lt;p&gt;Zum Debuggen der beiden Methoden wäre es vorteilhaft ein DebugHeightfield zu erstellen, anstatt jedesmal den komplette DSA durchlaufen zu lassen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;void createDebugHeightField(vector&amp;lt;float&amp;gt;&amp;amp; heightField)
+{
+    int size = resolution * resolution;
+    heightField.clear();
+    heightField.reserve(size);
+    for (int i = 0; i &amp;lt; size; i++)
+    {
+        heightField.push_back((float)i / (float)size);
+    }
+    return;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;normalcalc&#34;&gt;Normal Calculation - 3 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Achtet darauf, dass bei der Formel für den Vektor -x und -y Werte stehen !&lt;/li&gt;
+&lt;li&gt;Ihr müsst die Normale normalisieren, auf [0, 1] mappen und schließlich den ganzen Vektor normalisere&lt;/li&gt;
+&lt;li&gt;Ihr müsst den Vektor auf die richtige Größe setzen, zB mit:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  normalMap.clear();
+  normalMap.reserve(resolution * resolution);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um den Vektor zu normalisieren benötigt ihr die Länge des Vektors:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    normal_length = sqrt((x_dv*x_dv) + (y_dv*y_dv) + 1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn eure NormalMap komplett blau ist, dann habt ihr z falsch berechnet, zB das normalisieren vergessen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;textureblending&#34;&gt;Texture Blending - 5 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diese Aufgabe scheint anfangs extrem unübersichtlich, macht einen Schritt nach dem anderen&lt;/li&gt;
+&lt;li&gt;Ich hatte am Ende folgende Klassen &lt;code&gt;Texture, TextureBlending, NormalMap, TerrainGenerator&lt;/code&gt; es gibt aber natürlich auch andere Möglichkeiten&lt;/li&gt;
+&lt;li&gt;Von den Texturen benötigt ihr auf jeden Fall die Größe und ich würde euch empfehlen die Farben in einem 2D Array zu speichern&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Aufgabe komplett selber einteilen, beliebige Hilfsmethoden und Klassen schreiben, also tut es auch ;)&lt;/li&gt;
+&lt;li&gt;Das Blending der Texturen sollte aus der Vorlesung bekannt sein bzw. auf den Slides ist es nochmal erklärt, inklusive Formel
+&lt;img src=&#34;https://carnivean.github.io/img/textureblend.PNG&#34; alt=&#34;textureblendformel&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Falls ihr es hierher geschafft habt, dann wird es jetzt DEUTLICH einfacher&lt;/li&gt;
+&lt;li&gt;Das berechnen der Durchschnittswerte sollte euch von Smoothen bekannst vorkommen, nur dass ihr diesmal keine Sonderbehandlung machen müsst, da ihr niemals aus dem Array raus lauft&lt;/li&gt;
+&lt;li&gt;Addiert einfach die Werte auf und berechnet den Durchschnitt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen&lt;/li&gt;
+&lt;li&gt;Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -134,21 +134,17 @@
 
 <hr />
 
-<p><span style="color:green">Samstag 20.05.: 11 - 15 Uhr, Raum 02.11.018</span></p>
+<p><span style="color:green">Donnerstag 25.05.: 10 - 14 Uhr, Raum 02.11.018</span></p>
 
 <hr />
 
 <h2 id="aktuelles">Aktuelles</h2>
 
-<p>Alle Header Dateien aus dem letzten Jahr&hellip;:</p>
-
-<p><a href="/src/include.zip">include.zip</a></p>
-
-<p>Die beiden Datein gehören ins <code>../Tools/include</code> Verzeichnis</p>
+<p>Die Officestunde ist diese Woche am Donnerstag !</p>
 
 <h3 id="die-letzten-updates">Die letzten Updates:</h3>
 
-<p>I am busy right now.. sorry xD</p>
+<p>21.05.: Assignment 03 komplett hinzugefügt, einige kleine Änderungen für Assignment 02</p>
 
 <h2 id="overview">Overview</h2>
 
@@ -184,7 +180,15 @@
 <ul>
 <li><a href="#projectsetup">Project Setup - 1 Punkt</a></li>
 <li><a href="#cmdline">Command Line and Test Heightfield</a></li>
-<li><a href="#dsa">Diamond-Square-Algorithmus</a>
+<li><a href="#dsa">Diamond-Square-Algorithmus</a></li>
+</ul></li>
+<li><a href="#ass03">Assignment 3 - Texture Generation</a>
+
+<ul>
+<li><a href="#normalcalc">Normal Calculation - 3 Punkte</a></li>
+<li><a href="#textureblending">Texture Blending - 5 Punkte</a></li>
+<li><a href="#hfdownsizing">Heightfield Downsizing - 1 Punkt</a></li>
+<li><a href="#contentpipeline">Simple Content Pipeline - 1 Punkt</a>
 
          </div>
       
@@ -402,13 +406,93 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 <li>Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen</li>
 <li>Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5</li>
 <li>Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies</li>
+<li>Ihr könnt die Color- und Normalmaps wie folgt erstellen:</li>
 </ul>
+
+<pre><code class="language-c++">GEDUtils::TextureGenerator TexGen(L&quot;../../../external/textures/gras15.jpg&quot;,
+        L&quot;../../../external/textures/ground02.jpg&quot;,
+        L&quot;../../../external/textures/pebble03.jpg&quot;,
+        L&quot;../../../external/textures/rock4.jpg&quot;);
+    TexGen.generateAndStoreImages(heightField, resolution - 1, std::wstring(sColor.begin(), sColor.end()),
+        std::wstring(sNormal.begin(), sNormal.end()));
+</code></pre>
 
 <p>
          </div>
       
          <div class="row part">
            </p>
+
+<h2 id="ass03">Assignment 03 - Texture Generation</h2>
+
+<p>Zum Debuggen der beiden Methoden wäre es vorteilhaft ein DebugHeightfield zu erstellen, anstatt jedesmal den komplette DSA durchlaufen zu lassen:</p>
+
+<pre><code>void createDebugHeightField(vector&lt;float&gt;&amp; heightField)
+{
+    int size = resolution * resolution;
+    heightField.clear();
+    heightField.reserve(size);
+    for (int i = 0; i &lt; size; i++)
+    {
+        heightField.push_back((float)i / (float)size);
+    }
+    return;
+}
+</code></pre>
+
+<h3 id="normalcalc">Normal Calculation - 3 Punkte - Inferno <img src="/img/diff6.png" alt="inferno" /></h3>
+
+<ul>
+<li>Achtet darauf, dass bei der Formel für den Vektor -x und -y Werte stehen !</li>
+<li>Ihr müsst die Normale normalisieren, auf [0, 1] mappen und schließlich den ganzen Vektor normalisere</li>
+<li>Ihr müsst den Vektor auf die richtige Größe setzen, zB mit:</li>
+</ul>
+
+<pre><code>  normalMap.clear();
+  normalMap.reserve(resolution * resolution);
+</code></pre>
+
+<ul>
+<li>Um den Vektor zu normalisieren benötigt ihr die Länge des Vektors:</li>
+</ul>
+
+<pre><code>    normal_length = sqrt((x_dv*x_dv) + (y_dv*y_dv) + 1);
+</code></pre>
+
+<ul>
+<li>Wenn eure NormalMap komplett blau ist, dann habt ihr z falsch berechnet, zB das normalisieren vergessen</li>
+</ul>
+
+<h3 id="textureblending">Texture Blending - 5 Punkte - Inferno <img src="/img/diff6.png" alt="inferno" /></h3>
+
+<ul>
+<li>Diese Aufgabe scheint anfangs extrem unübersichtlich, macht einen Schritt nach dem anderen</li>
+<li>Ich hatte am Ende folgende Klassen <code>Texture, TextureBlending, NormalMap, TerrainGenerator</code> es gibt aber natürlich auch andere Möglichkeiten</li>
+<li>Von den Texturen benötigt ihr auf jeden Fall die Größe und ich würde euch empfehlen die Farben in einem 2D Array zu speichern</li>
+<li>Ihr könnt die Aufgabe komplett selber einteilen, beliebige Hilfsmethoden und Klassen schreiben, also tut es auch ;)</li>
+<li>Das Blending der Texturen sollte aus der Vorlesung bekannt sein bzw. auf den Slides ist es nochmal erklärt, inklusive Formel
+<img src="/img/textureblend.PNG" alt="textureblendformel" /></li>
+</ul>
+
+<h3 id="hfdownsizing">Heightfield Downsizing - 1 Punkt - Noch einfach <img src="/img/diff2.png" alt="noch einfach" /></h3>
+
+<ul>
+<li>Falls ihr es hierher geschafft habt, dann wird es jetzt DEUTLICH einfacher</li>
+<li>Das berechnen der Durchschnittswerte sollte euch von Smoothen bekannst vorkommen, nur dass ihr diesmal keine Sonderbehandlung machen müsst, da ihr niemals aus dem Array raus lauft</li>
+<li>Addiert einfach die Werte auf und berechnet den Durchschnitt</li>
+</ul>
+
+<h3 id="contentpipeline">Simple Content Pipeline - 1 Punkt - Easy <img src="/img/diff1.png" alt="easy" /></h3>
+
+<ul>
+<li>Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen</li>
+<li>Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+
+         </div>
+      
+         <div class="row part">
+           </li>
+</ul>
 
          </div>
       
