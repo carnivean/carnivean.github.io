@@ -134,17 +134,15 @@
 
 <hr />
 
-<p><span style="color:green">Donnerstag 25.05.: 10 - 14 Uhr, Raum 02.11.018</span></p>
+<p><span style="color:green">Samstag 03.06.: 11 - 15 Uhr, Raum 02.11.018</span></p>
 
 <hr />
 
 <h2 id="aktuelles">Aktuelles</h2>
 
-<p>Die Officestunde ist diese Woche am Donnerstag !</p>
-
 <h3 id="die-letzten-updates">Die letzten Updates:</h3>
 
-<p>21.05.: Assignment 03 komplett hinzugefügt, einige kleine Änderungen für Assignment 02</p>
+<p>30.05.: Assignment 04 komplett hinzugefügt</p>
 
 <h2 id="overview">Overview</h2>
 
@@ -188,7 +186,13 @@
 <li><a href="#normalcalc">Normal Calculation - 3 Punkte</a></li>
 <li><a href="#textureblending">Texture Blending - 5 Punkte</a></li>
 <li><a href="#hfdownsizing">Heightfield Downsizing - 1 Punkt</a></li>
-<li><a href="#contentpipeline">Simple Content Pipeline - 1 Punkt</a>
+<li><a href="#contentpipeline">Simple Content Pipeline - 1 Punkt</a></li>
+</ul></li>
+<li><a href="#ass04">Assignment 4 - Interactive 3D Terrain Rendering</a>
+
+<ul>
+<li><a href="#setup">Setup - 1 Punkt</a></li>
+<li><a href="#buffercreation">Buffer Creation - 7 Punkte</a>
 
          </div>
       
@@ -487,6 +491,40 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 <ul>
 <li>Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen</li>
 <li>Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+
+         </div>
+      
+         <div class="row part">
+           </li>
+</ul>
+
+<h2 id="ass04">Assignment 04 - Interactive 3D Terrain Rendering</h2>
+
+<h3 id="setup">Setup - 1 Punkt - Easy <img src="/img/diff1.png" alt="easy" /></h3>
+
+<ul>
+<li>Die Aufgabe sollte euch hoffentlich 0 Probleme bereiten</li>
+</ul>
+
+<h3 id="buffercreation">Buffer Creation - 7 Punkte - Mittel <img src="/img/diff3.png" alt="mittel" /></h3>
+
+<ul>
+<li>Nutzt die Graphical Debugging Tools von VS, dies funktioniert anders als normales Debuggen (siehe Tutorstunde)</li>
+</ul>
+
+<pre><code>Debug --&gt; Graphics Tools --&gt; Start Graphics Debugging
+</code></pre>
+
+<ul>
+<li>Nutzt die zusätzlichen Links, die auf der VL Seite angegeben sind, falls ihr mit DirectX nicht klar kommt, besonders zu empfehlen ist:
+
+<ul>
+<li><a href="http://www.rastertek.com/tutdx11.html">Rastertek</a></li>
+<li><a href="http://www.directxtutorial.com/LessonList.aspx?listid=11">DirectX Tutorial</a></li>
+</ul></li>
+<li>Arbeitet euch nach und nach durch die angegebenen Funktionen und ignoriert den Rest, außer ihr seid euch sehr sicher, was ihr tut</li>
+<li>Draw vs DrawIndexed sollte aus der VL bekannt sein, ansonsten ist auf den Slides nochmal ein Bsp angegeben</li>
+<li>Bitte nutzt eine <code>struct</code> für die Vertices, es macht euren Code sehr viel cleaner und einfacher zu verstehen
 
          </div>
       

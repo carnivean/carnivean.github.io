@@ -23,17 +23,15 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Donnerstag 25.05.: 10 - 14 Uhr, Raum 02.11.018&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt;Samstag 03.06.: 11 - 15 Uhr, Raum 02.11.018&lt;/span&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
 
-&lt;p&gt;Die Officestunde ist diese Woche am Donnerstag !&lt;/p&gt;
-
 &lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
 
-&lt;p&gt;21.05.: Assignment 03 komplett hinzugefügt, einige kleine Änderungen für Assignment 02&lt;/p&gt;
+&lt;p&gt;30.05.: Assignment 04 komplett hinzugefügt&lt;/p&gt;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
@@ -77,7 +75,13 @@
 &lt;li&gt;&lt;a href=&#34;#normalcalc&#34;&gt;Normal Calculation - 3 Punkte&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#textureblending&#34;&gt;Texture Blending - 5 Punkte&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass04&#34;&gt;Assignment 4 - Interactive 3D Terrain Rendering&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buffercreation&#34;&gt;Buffer Creation - 7 Punkte&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -348,6 +352,36 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;ul&gt;
 &lt;li&gt;Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen&lt;/li&gt;
 &lt;li&gt;Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ass04&#34;&gt;Assignment 04 - Interactive 3D Terrain Rendering&lt;/h2&gt;
+
+&lt;h3 id=&#34;setup&#34;&gt;Setup - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Die Aufgabe sollte euch hoffentlich 0 Probleme bereiten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;buffercreation&#34;&gt;Buffer Creation - 7 Punkte - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die Graphical Debugging Tools von VS, dies funktioniert anders als normales Debuggen (siehe Tutorstunde)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;Debug --&amp;gt; Graphics Tools --&amp;gt; Start Graphics Debugging
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die zusätzlichen Links, die auf der VL Seite angegeben sind, falls ihr mit DirectX nicht klar kommt, besonders zu empfehlen ist:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rastertek.com/tutdx11.html&#34;&gt;Rastertek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.directxtutorial.com/LessonList.aspx?listid=11&#34;&gt;DirectX Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Arbeitet euch nach und nach durch die angegebenen Funktionen und ignoriert den Rest, außer ihr seid euch sehr sicher, was ihr tut&lt;/li&gt;
+&lt;li&gt;Draw vs DrawIndexed sollte aus der VL bekannt sein, ansonsten ist auf den Slides nochmal ein Bsp angegeben&lt;/li&gt;
+&lt;li&gt;Bitte nutzt eine &lt;code&gt;struct&lt;/code&gt; für die Vertices, es macht euren Code sehr viel cleaner und einfacher zu verstehen
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
