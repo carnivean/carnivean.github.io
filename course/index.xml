@@ -29,6 +29,8 @@
 
 &lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
 
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Aus aktuellem Anlass, testet eure Abgaben, ich werde ab der nächsten Abgabe nur noch strikt eure Readme lesen, Sachen maximal anpassen, wie es dadrin steht und ansonsten 0 Punkte geben.&lt;/span&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
 
 &lt;p&gt;30.05.: Assignment 04 komplett hinzugefügt&lt;/p&gt;
@@ -556,6 +558,80 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;h2 id=&#34;free-for-all&#34;&gt;Free for all :-)&lt;/h2&gt;
 
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/repged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/repged/</guid>
+      <description>
+
+&lt;h1 id=&#34;repetetorium-ged-ss-17&#34;&gt;Repetetorium GED SS 17&lt;/h1&gt;
+
+&lt;h2 id=&#34;timetable&#34;&gt;Timetable&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tag&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Raum&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;td&gt;Affine Transformation&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;td&gt;Shading (Gouraud/Phong/Flat)&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;td&gt;Euler bzw. Project Motion&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#material&#34;&gt;Material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#affine&#34;&gt;Affine Transformation&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+
+&lt;p&gt;Die Lösungen zu den diesjährigen Klausuren sind in Absprache mit dem Lehrstuhl passwortgeschützt.
+Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst hochgeladen werden und das Passwort gibt es nur persönlich während des Repetetoriums.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture: &lt;a href=&#34;https://carnivean.github.io/src/Lecture_Klausur_enc.pdf&#34;&gt;Lecture_Klausur_enc.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Practical: &lt;a href=&#34;https://carnivean.github.io/src/Practical_Klausur_enc.pdf&#34;&gt;Practical_Klausur_enc.pdf&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;affine&#34;&gt;Affine Transformation&lt;/h2&gt;
+
+&lt;h3 id=&#34;wiederholung-lineare-und-affine-transformationen&#34;&gt;Wiederholung Lineare und Affine Transformationen&lt;/h3&gt;
+
+&lt;h3 id=&#34;affine-playground&#34;&gt;Affine Playground&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/algorithms/affine/&#34;&gt;Affine Playground&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
 </description>
     </item>
     
