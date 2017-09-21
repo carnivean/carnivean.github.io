@@ -766,13 +766,13 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 
 &lt;tr&gt;
 &lt;td&gt;21.09.&lt;/td&gt;
-&lt;td&gt;Shading (Gouraud/Phong/Flat)&lt;/td&gt;
+&lt;td&gt;Euler bzw. Project Motion&lt;/td&gt;
 &lt;td&gt;00.08.036&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;22.09.&lt;/td&gt;
-&lt;td&gt;Euler bzw. Project Motion&lt;/td&gt;
+&lt;td&gt;Shading (Gouraud/Phong/Flat)&lt;/td&gt;
 &lt;td&gt;00.08.036&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
