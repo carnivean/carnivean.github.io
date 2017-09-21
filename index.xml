@@ -766,7 +766,7 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 
 &lt;tr&gt;
 &lt;td&gt;21.09.&lt;/td&gt;
-&lt;td&gt;Euler bzw. Project Motion&lt;/td&gt;
+&lt;td&gt;Euler bzw. Project Motion / Barycentric Interpolation&lt;/td&gt;
 &lt;td&gt;00.08.036&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -784,7 +784,9 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#material&#34;&gt;Material&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#affine&#34;&gt;Affine Transformation&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#affine&#34;&gt;Affine Transformation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#euler&#34;&gt;Euler Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#barycentric&#34;&gt;Barycentric Interpolation&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -807,6 +809,15 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 
 &lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/algorithms/affine/&#34;&gt;Affine Playground&lt;/a&gt;
 &lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;euler&#34;&gt;Euler Integration / Projectile Motion&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/projectile.png&#34; alt=&#34;Projectile Update Code&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;barycentric&#34;&gt;Barycentric Interpolation&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
 </description>
     </item>
     
