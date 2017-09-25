@@ -600,6 +600,48 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;td&gt;Shading (Gouraud/Phong/Flat)&lt;/td&gt;
 &lt;td&gt;00.08.036&lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;td&gt;Texture Mapping / Diamond-Square-Algorithmus&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;26.09.  Vormittag&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;26.09.  Nachmittag&lt;/td&gt;
+&lt;td&gt;Bilinear Interpolation &amp;amp; Mipmap&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;27.09. Vormittag&lt;/td&gt;
+&lt;td&gt;Vertex Shader&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;28.09. Nachmittag&lt;/td&gt;
+&lt;td&gt;Array Filtering &amp;amp; Normal Generation&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;td&gt;Blending / Blendstates &amp;amp; Lighting (Reflection)&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;29.09.&lt;/td&gt;
+&lt;td&gt;Wiederholung + Frage und Antwort Stunde&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -611,7 +653,9 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;li&gt;&lt;a href=&#34;#material&#34;&gt;Material&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#affine&#34;&gt;Affine Transformation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#euler&#34;&gt;Euler Integration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#barycentric&#34;&gt;Barycentric Interpolation&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#barycentric&#34;&gt;Barycentric Interpolation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#shading&#34;&gt;Shading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#texturemapping&#34;&gt;Texture Mapping&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -622,9 +666,416 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 
 &lt;ul&gt;
 &lt;li&gt;Lecture: &lt;a href=&#34;https://carnivean.github.io/src/Lecture_Klausur_enc.pdf&#34;&gt;Lecture_Klausur_enc.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Practical: &lt;a href=&#34;https://carnivean.github.io/src/Practical_Klausur_enc.pdf&#34;&gt;Practical_Klausur_enc.pdf&lt;/a&gt;
+&lt;li&gt;Practical: &lt;a href=&#34;https://carnivean.github.io/src/Practical_Klausur_enc.pdf&#34;&gt;Practical_Klausur_enc.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Projekt &lt;a href=&#34;https://drive.google.com/open?id=0B3vWS4YeyUxxNE1uZ3Q4UTUwUWM&#34;&gt;GEDGame.zip&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;besprochene-aufgaben&#34;&gt;Besprochene Aufgaben&lt;/h2&gt;
+
+&lt;h3 id=&#34;praktikums-klausur-ss-17&#34;&gt;Praktikums Klausur SS 17&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Normal Generation&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Shading / Lighting&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shader Understanding (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Rendering Fog&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Pixelshader&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;vorlesungs-klausur-ss-17&#34;&gt;Vorlesungs Klausur SS 17&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Barycentric Interpolation&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Rendering&lt;/td&gt;
+&lt;td&gt;22.09. (teilweise)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Motion Dynamics (Projectile Motion)&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Affine Transformation&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-13-wiederholung&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 13 Wiederholung&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 a&lt;/td&gt;
+&lt;td&gt;Diamond-Square-Algorithmus&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 b&lt;/td&gt;
+&lt;td&gt;Array Filtering&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 c&lt;/td&gt;
+&lt;td&gt;Vertex Shader (Heightmap)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Projectile Motion&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02 b&lt;/td&gt;
+&lt;td&gt;Sprite VertexShader&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Pixelshader (Phong Shading)&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04 a-d&lt;/td&gt;
+&lt;td&gt;Bilinear Interpolation &amp;amp; Mipmap&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04 e&lt;/td&gt;
+&lt;td&gt;Barycentric Interpolation&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Lighting &amp;amp; Shading&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Collision Testing&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Transformation&lt;/td&gt;
+&lt;td&gt;20.09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-12-endterm&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 12 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Blendstate&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Shaders&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Model Rendering&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Illumination &amp;amp; Shading&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Rasterization &amp;amp; Texture Mapping&lt;/td&gt;
+&lt;td&gt;21.09. &amp;amp; 25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Projectile Motion&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;08&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;09&lt;/td&gt;
+&lt;td&gt;Transformation&lt;/td&gt;
+&lt;td&gt;20.09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-13-endterm&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 13 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Mesh Transformation &amp;amp; Rendering&lt;/td&gt;
+&lt;td&gt;20.09 &amp;amp; 22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Model Rendering  (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shaders in HLSH&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Rasterization (Fragen)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 ab&lt;/td&gt;
+&lt;td&gt;Texture Mapping (Bilinear Interpolation)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 c&lt;/td&gt;
+&lt;td&gt;Texture Mapping (Mipmap)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Color Blending / Blendstate&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Shading &amp;amp; Lighting&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;08&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;09&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-vorlesung-ss-14-endterm&#34;&gt;Klausur Vorlesung SS 14 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Projectile Movement&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shading (Fragen)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Lighting (Reflection)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 ab&lt;/td&gt;
+&lt;td&gt;Rasterization (Barycentric Coordinates)&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 c&lt;/td&gt;
+&lt;td&gt;Rasterization (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;affine&#34;&gt;Affine Transformation&lt;/h2&gt;
 
@@ -641,6 +1092,32 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;barycentric&#34;&gt;Barycentric Interpolation&lt;/h2&gt;
+
+&lt;p&gt;Aufgabe zum Üben:&lt;/p&gt;
+
+&lt;p&gt;A = [4, 4, 2] [1, 0, 0]&lt;/p&gt;
+
+&lt;p&gt;B = [-2, 6, 4] [0, 1, 0]&lt;/p&gt;
+
+&lt;p&gt;C = [2, -6, 8] [1, 0, 1]&lt;/p&gt;
+
+&lt;p&gt;D = [2, -2, 6] [?, ?, ?]&lt;/p&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;shading&#34;&gt;Shading&lt;/h2&gt;
+
+&lt;h3 id=&#34;genereller-vertexshader-und-pixelshader&#34;&gt;Genereller Vertexshader und Pixelshader&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/generalvsps.PNG&#34; alt=&#34;Generell VS/PS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;phong-pixelshader-gouraud-vertexshader-fast-gleich&#34;&gt;Phong Pixelshader / (Gouraud Vertexshader fast gleich)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/phongps.PNG&#34; alt=&#34;Phong Pixelshader&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;texturemapping&#34;&gt;Texture Mapping&lt;/h2&gt;
 
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
 </description>

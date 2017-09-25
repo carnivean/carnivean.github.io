@@ -159,6 +159,48 @@
 <td>Shading (Gouraud/Phong/Flat)</td>
 <td>00.08.036</td>
 </tr>
+
+<tr>
+<td>25.09.</td>
+<td>Texture Mapping / Diamond-Square-Algorithmus</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>26.09.  Vormittag</td>
+<td>Collision Detection</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>26.09.  Nachmittag</td>
+<td>Bilinear Interpolation &amp; Mipmap</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>27.09. Vormittag</td>
+<td>Vertex Shader</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>28.09. Nachmittag</td>
+<td>Array Filtering &amp; Normal Generation</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>28.09.</td>
+<td>Blending / Blendstates &amp; Lighting (Reflection)</td>
+<td>00.08.036</td>
+</tr>
+
+<tr>
+<td>29.09.</td>
+<td>Wiederholung + Frage und Antwort Stunde</td>
+<td>00.08.036</td>
+</tr>
 </tbody>
 </table>
 
@@ -174,7 +216,9 @@
 <li><a href="#material">Material</a></li>
 <li><a href="#affine">Affine Transformation</a></li>
 <li><a href="#euler">Euler Integration</a></li>
-<li><a href="#barycentric">Barycentric Interpolation</a>
+<li><a href="#barycentric">Barycentric Interpolation</a></li>
+<li><a href="#shading">Shading</a></li>
+<li><a href="#texturemapping">Texture Mapping</a>
 
          </div>
       
@@ -189,13 +233,424 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 
 <ul>
 <li>Lecture: <a href="/src/Lecture_Klausur_enc.pdf">Lecture_Klausur_enc.pdf</a></li>
-<li>Practical: <a href="/src/Practical_Klausur_enc.pdf">Practical_Klausur_enc.pdf</a>
+<li>Practical: <a href="/src/Practical_Klausur_enc.pdf">Practical_Klausur_enc.pdf</a></li>
+<li>Projekt <a href="https://drive.google.com/open?id=0B3vWS4YeyUxxNE1uZ3Q4UTUwUWM">GEDGame.zip</a>
 
          </div>
       
          <div class="row part">
            </li>
 </ul>
+
+<h2 id="besprochene-aufgaben">Besprochene Aufgaben</h2>
+
+<h3 id="praktikums-klausur-ss-17">Praktikums Klausur SS 17</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>01</td>
+<td>Normal Generation</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Shading / Lighting</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Shader Understanding (Texture Mapping)</td>
+<td>25.09.</td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>Rendering Fog</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>05</td>
+<td>Pixelshader</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="vorlesungs-klausur-ss-17">Vorlesungs Klausur SS 17</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>01</td>
+<td>Barycentric Interpolation</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Rendering</td>
+<td>22.09. (teilweise)</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Motion Dynamics (Projectile Motion)</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>Collision Detection</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>05</td>
+<td>Affine Transformation</td>
+<td>20.09.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="klausur-praktikum-vorlesung-ss-13-wiederholung">Klausur (Praktikum &amp; Vorlesung) SS 13 Wiederholung</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Praktikum</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>01 a</td>
+<td>Diamond-Square-Algorithmus</td>
+<td>25.09.</td>
+</tr>
+
+<tr>
+<td>01 b</td>
+<td>Array Filtering</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>01 c</td>
+<td>Vertex Shader (Heightmap)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Projectile Motion</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>02 b</td>
+<td>Sprite VertexShader</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Pixelshader (Phong Shading)</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td><strong>Vorlesung</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>04 a-d</td>
+<td>Bilinear Interpolation &amp; Mipmap</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>04 e</td>
+<td>Barycentric Interpolation</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>05</td>
+<td>Lighting &amp; Shading</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>06</td>
+<td>Collision Testing</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>07</td>
+<td>Transformation</td>
+<td>20.09</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="klausur-praktikum-vorlesung-ss-12-endterm">Klausur (Praktikum &amp; Vorlesung) SS 12 Endterm</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Praktikum</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>01</td>
+<td>Blendstate</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Shaders</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Model Rendering</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>Transformations</td>
+<td>20.09.</td>
+</tr>
+
+<tr>
+<td><strong>Vorlesung</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>05</td>
+<td>Illumination &amp; Shading</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>06</td>
+<td>Rasterization &amp; Texture Mapping</td>
+<td>21.09. &amp; 25.09.</td>
+</tr>
+
+<tr>
+<td>07</td>
+<td>Projectile Motion</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>08</td>
+<td>Collision Detection</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>09</td>
+<td>Transformation</td>
+<td>20.09</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="klausur-praktikum-vorlesung-ss-13-endterm">Klausur (Praktikum &amp; Vorlesung) SS 13 Endterm</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Praktikum</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>01</td>
+<td>Mesh Transformation &amp; Rendering</td>
+<td>20.09 &amp; 22.09.</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Model Rendering  (Texture Mapping)</td>
+<td>25.09.</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Shaders in HLSH</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td><strong>Vorlesung</strong></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>Rasterization (Fragen)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>05 ab</td>
+<td>Texture Mapping (Bilinear Interpolation)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>05 c</td>
+<td>Texture Mapping (Mipmap)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>06</td>
+<td>Color Blending / Blendstate</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>07</td>
+<td>Shading &amp; Lighting</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>08</td>
+<td>Collision Detection</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>09</td>
+<td>Transformations</td>
+<td>20.09.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="klausur-vorlesung-ss-14-endterm">Klausur Vorlesung SS 14 Endterm</h3>
+
+<table>
+<thead>
+<tr>
+<th>Aufgabe</th>
+<th>Thema</th>
+<th>Besprochen am</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>01</td>
+<td>Projectile Movement</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>Transformations</td>
+<td>22.09.</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>Shading (Fragen)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>Lighting (Reflection)</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>05 ab</td>
+<td>Rasterization (Barycentric Coordinates)</td>
+<td>21.09.</td>
+</tr>
+
+<tr>
+<td>05 c</td>
+<td>Rasterization (Texture Mapping)</td>
+<td>25.09.</td>
+</tr>
+
+<tr>
+<td>06</td>
+<td>Collision Detection</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
 
 <h2 id="affine">Affine Transformation</h2>
 
@@ -220,6 +675,40 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
            </p>
 
 <h2 id="barycentric">Barycentric Interpolation</h2>
+
+<p>Aufgabe zum Üben:</p>
+
+<p>A = [4, 4, 2] [1, 0, 0]</p>
+
+<p>B = [-2, 6, 4] [0, 1, 0]</p>
+
+<p>C = [2, -6, 8] [1, 0, 1]</p>
+
+<p>D = [2, -2, 6] [?, ?, ?]</p>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="shading">Shading</h2>
+
+<h3 id="genereller-vertexshader-und-pixelshader">Genereller Vertexshader und Pixelshader</h3>
+
+<p><img src="/img/generalvsps.PNG" alt="Generell VS/PS" /></p>
+
+<h3 id="phong-pixelshader-gouraud-vertexshader-fast-gleich">Phong Pixelshader / (Gouraud Vertexshader fast gleich)</h3>
+
+<p><img src="/img/phongps.PNG" alt="Phong Pixelshader" /></p>
+
+<p>
+         </div>
+      
+         <div class="row part">
+           </p>
+
+<h2 id="texturemapping">Texture Mapping</h2>
 
 <p>
          </div>
