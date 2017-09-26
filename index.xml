@@ -801,7 +801,7 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;28.09. Nachmittag&lt;/td&gt;
+&lt;td&gt;27.09. Nachmittag&lt;/td&gt;
 &lt;td&gt;Array Filtering &amp;amp; Normal Generation&lt;/td&gt;
 &lt;td&gt;00.08.036&lt;/td&gt;
 &lt;/tr&gt;
@@ -830,7 +830,9 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;li&gt;&lt;a href=&#34;#euler&#34;&gt;Euler Integration&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#barycentric&#34;&gt;Barycentric Interpolation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#shading&#34;&gt;Shading&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#texturemapping&#34;&gt;Texture Mapping&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#texturemapping&#34;&gt;Texture Mapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#collision&#34;&gt;Collision Detection&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -925,7 +927,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;04&lt;/td&gt;
 &lt;td&gt;Collision Detection&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -999,7 +1001,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;04 a-d&lt;/td&gt;
 &lt;td&gt;Bilinear Interpolation &amp;amp; Mipmap&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1017,7 +1019,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;06&lt;/td&gt;
 &lt;td&gt;Collision Testing&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1097,7 +1099,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;08&lt;/td&gt;
 &lt;td&gt;Collision Detection&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1159,13 +1161,13 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;05 ab&lt;/td&gt;
 &lt;td&gt;Texture Mapping (Bilinear Interpolation)&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;05 c&lt;/td&gt;
 &lt;td&gt;Texture Mapping (Mipmap)&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1183,7 +1185,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;08&lt;/td&gt;
 &lt;td&gt;Collision Detection&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1245,7 +1247,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;06&lt;/td&gt;
 &lt;td&gt;Collision Detection&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1293,6 +1295,14 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;texturemapping&#34;&gt;Texture Mapping&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;collision&#34;&gt;Collision Detection&lt;/h2&gt;
 
 &lt;p&gt;&lt;split&gt;&lt;/p&gt;
 </description>
