@@ -832,7 +832,10 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;li&gt;&lt;a href=&#34;#shading&#34;&gt;Shading&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#texturemapping&#34;&gt;Texture Mapping&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#collision&#34;&gt;Collision Detection&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#collision&#34;&gt;Collision Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mipmap&#34;&gt;Mipmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#normal&#34;&gt;Normal Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#moreshaders&#34;&gt;More Shaders&lt;/a&gt;
 &lt;split&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -865,7 +868,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;01&lt;/td&gt;
 &lt;td&gt;Normal Generation&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -889,7 +892,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;05&lt;/td&gt;
 &lt;td&gt;Pixelshader&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -965,13 +968,13 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;01 b&lt;/td&gt;
 &lt;td&gt;Array Filtering&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;01 c&lt;/td&gt;
 &lt;td&gt;Vertex Shader (Heightmap)&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -983,7 +986,7 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 &lt;tr&gt;
 &lt;td&gt;02 b&lt;/td&gt;
 &lt;td&gt;Sprite VertexShader&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -1300,11 +1303,33 @@ Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst ho
 
 &lt;h2 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/dsa.PNG&#34; alt=&#34;DSA Mainloop&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;collision&#34;&gt;Collision Detection&lt;/h2&gt;
 
-&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/collision.PNG&#34; alt=&#34;Collision Detection&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mipmap&#34;&gt;Mipmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/mipmap.PNG&#34; alt=&#34;Mipmap&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;normal&#34;&gt;Normal Generation&lt;/h2&gt;
+
+&lt;p&gt;Siehe Musterlösung der Praktikumsklausur SS 17, Aufgabe 1.
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;moreshaders&#34;&gt;More Shaders&lt;/h2&gt;
+
+&lt;h3 id=&#34;vertexshader-terrainrendering-aus-heightfield&#34;&gt;Vertexshader: Terrainrendering aus Heightfield&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/vs_terrain.PNG&#34; alt=&#34;Vertexshader: Terrainrendering&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;geometry-shader-spriterendering&#34;&gt;Geometry Shader: Spriterendering&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/gs_sprite.PNG&#34; alt=&#34;Geometryshader: Spritenrendering&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
