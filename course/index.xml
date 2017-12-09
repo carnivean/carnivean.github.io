@@ -571,11 +571,28 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 
 &lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws17-18&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS17/18&lt;/h1&gt;
 
-&lt;h3 id=&#34;2-12-2017&#34;&gt;2.12.2017&lt;/h3&gt;
+&lt;h3 id=&#34;09-12-2017&#34;&gt;09.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Penguine: &lt;a href=&#34;https://carnivean.github.io/src/peng.java&#34;&gt;peng.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Basen: &lt;a href=&#34;https://carnivean.github.io/src/ZahlenBasen.java&#34;&gt;ZahlenBasen.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Präsenzaufgabe:
+&lt;img src=&#34;https://carnivean.github.io/img/p72_1.jpg&#34; alt=&#34;Teil 1&#34; /&gt;
+&lt;img src=&#34;https://carnivean.github.io/img/p72_2.jpg&#34; alt=&#34;Teil 1&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;02-12-2017&#34;&gt;02.12.2017&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Gauß: &lt;a href=&#34;https://carnivean.github.io/src/GrausGauß.java&#34;&gt;GrausGauß.java&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mensch ärgere Dich nich: &lt;a href=&#34;https://carnivean.github.io/src/madn.java&#34;&gt;madn.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;25-11-2017&#34;&gt;25.11.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XOR: &lt;a href=&#34;https://carnivean.github.io/src/XORNachbesprechung.java&#34;&gt;XORNachbesprechung.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringray: &lt;a href=&#34;https://carnivean.github.io/src/Stringray.java&#34;&gt;Stringray.java&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
