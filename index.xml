@@ -738,6 +738,25 @@ std::sort(vec.begin(), vec.end(), sort_asc);
     
     <item>
       <title></title>
+      <link>https://carnivean.github.io/course/info1ws17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/info1ws17/</guid>
+      <description>
+
+&lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws17-18&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS17/18&lt;/h1&gt;
+
+&lt;h3 id=&#34;2-12-2017&#34;&gt;2.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gauß: &lt;a href=&#34;https://carnivean.github.io/src/GrausGauß.java&#34;&gt;GrausGauß.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mensch ärgere Dich nich: &lt;a href=&#34;https://carnivean.github.io/src/madn.java&#34;&gt;madn.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://carnivean.github.io/course/repged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
