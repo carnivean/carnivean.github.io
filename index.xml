@@ -751,10 +751,12 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;ul&gt;
 &lt;li&gt;Penguine: &lt;a href=&#34;https://carnivean.github.io/src/peng.java&#34;&gt;peng.java&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Basen: &lt;a href=&#34;https://carnivean.github.io/src/ZahlenBasen.java&#34;&gt;ZahlenBasen.java&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Präsenzaufgabe:
-&lt;img src=&#34;https://carnivean.github.io/img/p72_1.jpg&#34; alt=&#34;Teil 1&#34; /&gt;
-&lt;img src=&#34;https://carnivean.github.io/img/p72_2.jpg&#34; alt=&#34;Teil 1&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Präsenzaufgabe:&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Der Sprung müsste in Zeile 10 sein, da die Aufgabenstellung nochmals geändert wurde, nachdem die Lösung erstellt wurde.
+  &lt;img src=&#34;https://carnivean.github.io/img/p72_1.jpg&#34; alt=&#34;Teil 1&#34; /&gt;
+  &lt;img src=&#34;https://carnivean.github.io/img/p72_2.jpg&#34; alt=&#34;Teil 1&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;02-12-2017&#34;&gt;02.12.2017&lt;/h3&gt;
 
