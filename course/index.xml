@@ -571,6 +571,16 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 
 &lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws17-18&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS17/18&lt;/h1&gt;
 
+&lt;h3 id=&#34;alternative-lösungen-von-einer-tutorin&#34;&gt;Alternative Lösungen von einer Tutorin&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pinguine: &lt;a href=&#34;https://carnivean.github.io/src/Kira/SweetPingus.java&#34;&gt;SweetPingus.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Basen: &lt;a href=&#34;https://carnivean.github.io/src/Kira/BubbleTrouble.java&#34;&gt;BubbleTrouble.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gauß: &lt;a href=&#34;https://carnivean.github.io/src/Kira/GrausGauß.java&#34;&gt;GrausGauß.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;XOR: &lt;a href=&#34;https://carnivean.github.io/src/Kira/XOR.java&#34;&gt;XOR.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringray: &lt;a href=&#34;https://carnivean.github.io/src/Kira/Stringray.java&#34;&gt;Stringray.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;09-12-2017&#34;&gt;09.12.2017&lt;/h3&gt;
 
 &lt;ul&gt;
