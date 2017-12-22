@@ -581,6 +581,13 @@ std::sort(vec.begin(), vec.end(), sort_asc);
 &lt;li&gt;Stringray: &lt;a href=&#34;https://carnivean.github.io/src/Kira/Stringray.java&#34;&gt;Stringray.java&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&#34;18-12-2017&#34;&gt;18.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Interpreter:  &lt;a href=&#34;https://carnivean.github.io/src/Kira/Interpreter.java&#34;&gt;Interpreter.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Piguin füttern: &lt;a href=&#34;https://carnivean.github.io/src/Kira/HilfPingu.java&#34;&gt;HilfPingu.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;09-12-2017&#34;&gt;09.12.2017&lt;/h3&gt;
 
 &lt;ul&gt;
