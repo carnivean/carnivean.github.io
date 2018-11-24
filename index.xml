@@ -186,6 +186,51 @@
     
     <item>
       <title></title>
+      <link>https://carnivean.github.io/course/InfoWs18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/InfoWs18/</guid>
+      <description>
+
+&lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws17-18&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS17/18&lt;/h1&gt;
+
+&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Dies sind keine Musterlösungen und mit extremer Wahrscheinlichkeit nicht fehlerfrei, da sie entweder gar nicht oder viel zu wenig getestet wurden und live programmiert sind, was der Konzentration nicht foerderlich ist.&lt;/p&gt;
+
+&lt;p&gt;Nimmt diese Lösungen AUF KEINEN FALL für eure Hausaufgaben als Grundlage, sondern immer die wirklichen Musterlösungen.&lt;/p&gt;
+
+&lt;h3 id=&#34;10-11-blatt-2&#34;&gt;10.11 - Blatt 2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Author:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Author.java&#34;&gt;ha2/Author.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Date:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Date.java&#34;&gt;ha2/Date.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Document.java&#34;&gt;ha2/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Review.java&#34;&gt;ha2/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Testing:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Testing.java&#34;&gt;ha2/Testing.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;17-11-blatt-3&#34;&gt;17.11 - Blatt 3&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Primverquerung:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Primverquerung.java&#34;&gt;ha3/Primverquerung.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Testing: &lt;a href=&#34;https://carnivean.github.io/src/ha3/Testing.java&#34;&gt;ha3/Testing.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WordCount: &lt;a href=&#34;https://carnivean.github.io/src/ha3/WordCount.java&#34;&gt;ha3/WordCount.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Date:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Date.java&#34;&gt;ha3/Date.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Document.java&#34;&gt;ha3/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Review.java&#34;&gt;ha3/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringulina: &lt;a href=&#34;https://carnivean.github.io/src/ha3/Stringulina.java&#34;&gt;ha3/Stringulina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Document.java&#34;&gt;ha3/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Review.java&#34;&gt;ha3/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TestDate:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/TestDate.java&#34;&gt;ha3/TestDate.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;24-11-blatt-4&#34;&gt;24.11. - Blatt 4&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://carnivean.github.io/course/ged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
