@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Erik Kynast</title>
+    <link>https://carnivean.github.io/course/index.xml</link>
+    <description>Recent content in Courses on Erik Kynast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Erik Kynast</copyright>
+    <atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/InfoWs18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/InfoWs18/</guid>
+      <description>
+
+&lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws18-119&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS18/119&lt;/h1&gt;
+
+&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Dies sind keine Musterlösungen und mit extremer Wahrscheinlichkeit nicht fehlerfrei, da sie entweder gar nicht oder viel zu wenig getestet wurden und live programmiert sind, was der Konzentration nicht foerderlich ist.&lt;/p&gt;
+
+&lt;p&gt;Nimmt diese Lösungen AUF KEINEN FALL für eure Hausaufgaben als Grundlage, sondern immer die wirklichen Musterlösungen.&lt;/p&gt;
+
+&lt;h3 id=&#34;10-11-blatt-2&#34;&gt;10.11 - Blatt 2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Author:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Author.java&#34;&gt;ha2/Author.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Date:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Date.java&#34;&gt;ha2/Date.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Document.java&#34;&gt;ha2/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Review.java&#34;&gt;ha2/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Testing:  &lt;a href=&#34;https://carnivean.github.io/src/ha2/Testing.java&#34;&gt;ha2/Testing.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;17-11-blatt-3&#34;&gt;17.11 - Blatt 3&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Primverquerung:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Primverquerung.java&#34;&gt;ha3/Primverquerung.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Testing: &lt;a href=&#34;https://carnivean.github.io/src/ha3/Testing.java&#34;&gt;ha3/Testing.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WordCount: &lt;a href=&#34;https://carnivean.github.io/src/ha3/WordCount.java&#34;&gt;ha3/WordCount.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Date:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Date.java&#34;&gt;ha3/Date.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Document.java&#34;&gt;ha3/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Review.java&#34;&gt;ha3/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringulina: &lt;a href=&#34;https://carnivean.github.io/src/ha3/Stringulina.java&#34;&gt;ha3/Stringulina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Document.java&#34;&gt;ha3/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Review:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/Review.java&#34;&gt;ha3/Review.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TestDate:  &lt;a href=&#34;https://carnivean.github.io/src/ha3/TestDate.java&#34;&gt;ha3/TestDate.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;24-11-blatt-4&#34;&gt;24.11. - Blatt 4&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CRC: Nur Musterlösung besprochen&lt;/li&gt;
+&lt;li&gt;WordCountsArray: &lt;a href=&#34;https://carnivean.github.io/src/ha4/WordCountsArray.java&#34;&gt;ha4/WordCountsArray.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Beispiele (Testklasse): &lt;a href=&#34;https://carnivean.github.io/src/ha4/Beispiele.java&#34;&gt;ha4/Beispiele.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document: &lt;a href=&#34;https://carnivean.github.io/src/ha4/Document.java&#34;&gt;ha4/Document.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/ged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/ged/</guid>
+      <description>
+
+&lt;h1 id=&#34;ged-ss-18&#34;&gt;GED SS 18&lt;/h1&gt;
+
+&lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Die vorläufigen Klausurtermine hinzugefügt, bitte checkt diese aber kurz vorher nochmal eigenständig bei TUMOnline.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;telegrammgruppe&#34;&gt;Telegrammgruppe&lt;/h2&gt;
+
+&lt;h3 id=&#34;direct-message-bitte-nicht-zu-sehr-spammen-lieber-die-gruppen-unten-benutzen&#34;&gt;Direct Message (bitte nicht zu sehr spammen, lieber die Gruppen unten benutzen)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://t.me/kynast&#34;&gt;https://t.me/kynast&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gruppe-1-montag-14-16&#34;&gt;Gruppe 1 Montag 14 - 16&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://t.me/joinchat/FsvQNg-wa-I-t4Nu3Tu1Pg&#34;&gt;https://t.me/joinchat/FsvQNg-wa-I-t4Nu3Tu1Pg&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gruppe-9-freitag-10-12&#34;&gt;Gruppe 9 Freitag 10 - 12&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://t.me/joinchat/FsvQNhID_EKT9tE5dUjoxA&#34;&gt;https://t.me/joinchat/FsvQNhID_EKT9tE5dUjoxA&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
+
+&lt;p&gt;Klausurtermine hinzugefügt.&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#generell&#34;&gt;Generell&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bewertung&#34;&gt;Bewertung der Abgaben&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#praktikum&#34;&gt;Praktikum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vorlesung&#34;&gt;Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-0&#34;&gt;Assignment 0&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#git&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-1&#34;&gt;Assignment 1&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#2dsmootharray&#34;&gt;2DSmoothArray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vectorsort&#34;&gt;VectorSort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configparser&#34;&gt;ConfigurationParser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#projectsetup&#34;&gt;Project Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmdline&#34;&gt;Command Line and Test Heightfield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass03&#34;&gt;Assignment 3 - Texture Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#normalcalc&#34;&gt;Normal Calculation - 3 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textureblending&#34;&gt;Texture Blending - 5 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass04&#34;&gt;Assignment 4 - Interactive 3D Terrain Rendering&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buffercreation&#34;&gt;Buffer Creation - 7 Punkte&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;generell&#34;&gt;Generell&lt;/h2&gt;
+
+&lt;h3 id=&#34;visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C++ wird NICHT standardmäßig installiert, wenn ihr VS 2015 installiert, ihr müsst dies entweder manuell auswählen oder nachträglich die Installation modifizieren&lt;/li&gt;
+&lt;li&gt;Restartet euren PC falls ihr kein C++ Projekt erstellen könnt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bewertung&#34;&gt;Bewertung der Abgaben&lt;/h3&gt;
+
+&lt;p&gt;Hier einige Punkte, wie ich (und die anderen Tutoren), eure Abgaben bewerten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich clone euer Repo jedesmal komplett frisch und nutze den LETZTEN commit vor der Deadline, wenn ich einen anderen (älteren) commit bewerten soll, dann macht dies bitte in der Readme deutlich&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt; !!!  Wenn Euer Projekt, nachdem man es frisch geclont hat, nicht compiliert, dann wird es mit 0 Punkten für die Woche bewertet !!!
+
+&lt;ul&gt;
+&lt;li&gt;also testet dies bitte, indem ihr euer Projekt selber einmal in ein neues Verzeichnis clont und es dann startet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Memory Leaks in eurem Code werden ab dem 2. oder 3. Assignment mit -1 P bewertet, egal wie groß oder klein der Leak ist&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr stets Debug und Release testet, da ich auch beides tun werden&lt;/li&gt;
+&lt;li&gt;Wenn euer Endprodukt richtig aussieht, sprich zB das Terrain richtig gerendet wird, dann bekommt ihr auch die Punkte, auch wenn ihr zB die Werte auf 0.99 statt auf 1.0 begrenzt &amp;ndash;&amp;gt; es soll ein Engine werden, Aussehen &amp;gt; physikalische Korrektheit&lt;/li&gt;
+&lt;li&gt;Ja es gibt für einige der Assignments Lösungen, die man mit etwas Googlen findet, nur können das die Tutoren auch&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich habe eine Liste aus den häufigsten Fragen/Probleme der letzten Jahre zusammengestellt und werde diese während des Semesters immer wieder updaten, &lt;strong&gt;&lt;em&gt;momentaner Status: Bis Assignment 3&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Link: &lt;a href=&#34;https://carnivean.github.io/faq/&#34;&gt;FAQ GED&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/h2&gt;
+
+&lt;h3 id=&#34;vorläufige-termine-keine-gewährleistung-checkt-die-norchmal-selber&#34;&gt;Vorläufige Termine (keine Gewährleistung, checkt die norchmal selber)&lt;/h3&gt;
+
+&lt;p&gt;Praktikum 16.07.2018 13:30 - 15:00&lt;/p&gt;
+
+&lt;p&gt;Vorlesung 02.08.2018 08:00 - 09:30&lt;/p&gt;
+
+&lt;h3 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h3&gt;
+
+&lt;p&gt;Ich werde diesen Bereich während des Semesters laufend updaten und gerade in den Wochen vor der Klausur mit hoffentlich viel Material füllen.&lt;/p&gt;
+
+&lt;p&gt;Für den Moment gibt es den Link zu den Flashcards mit denen ich vor zwei Jahren für beides gelernt habe:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/join/fPxRyYeAB&#34;&gt;Quizlet: Sammlung aller Lernsets für GED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/204707976/praktikum-vorlesung-flash-cards/&#34;&gt;Quizlet: Praktikum und Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;praktikum&#34;&gt;Praktikum&lt;/h3&gt;
+
+&lt;p&gt;Coming Soon&lt;/p&gt;
+
+&lt;h3 id=&#34;vorlesung&#34;&gt;Vorlesung&lt;/h3&gt;
+
+&lt;p&gt;Coming Soon
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/h2&gt;
+
+&lt;p&gt;Ich werde alle Aufgaben des Praktikums von der Schwierigkeit einordnen. Das hat für euch den Vorteil, dass ihr vorher schon sehen könnt, wie schwierig diese Woche wird und wie viel Zeit ihr ungefähr brauchen werdet - wichtig ist nur anzumerken, dass ist eine rein subjektive Einschätzung, andere Leute würde vielleicht völlig andere Wert vergeben, aber ich tue mein Bestes :).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Life is rough &lt;img src=&#34;https://carnivean.github.io/img/diff5.png&#34; alt=&#34;rough&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;assignment-0&#34;&gt;Assignment 0&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;p&gt;-&lt;strong&gt;&lt;em&gt;Im Moment müsst ihr &lt;code&gt;git clone https://tum3d.in.tum.de:80/git/SS18/GED/external&lt;/code&gt; verwenden, da die Portweiterleitung des Servers nicht funktioniert&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr braucht nicht viel Git wissen für das GED Praktikum (auch wenn es extrem hilfreich für den weiteren Studienverlauf ist und es nach dem Studium erwartet wird ;))&lt;/li&gt;
+&lt;li&gt;Ein kurzes aber gutes Tutorial, wobei selbst das wahrscheinlich schon zu viel ist: &lt;a href=&#34;http://rogerdudler.github.io/git-guide/&#34;&gt;http://rogerdudler.github.io/git-guide/&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-1&#34;&gt;Assignment 1&lt;/h2&gt;
+
+&lt;h3 id=&#34;2dsmootharray&#34;&gt;2DSmoothArray - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn ihr malloc benutzen wollt für das Array, müsst Ihr &lt;code&gt;#include &amp;quot;stdlib.h&amp;quot;&lt;/code&gt; hinzufügen&lt;/li&gt;
+&lt;li&gt;smoothArray kann zum Beispiel über eine 4-fach verschachtelte Loops gelöst werden&lt;/li&gt;
+&lt;li&gt;smoothArray stellt sicher, dass eure Indizes für x und y &amp;gt; 0 aber x &amp;lt; width und y &amp;lt; height sind&lt;/li&gt;
+&lt;li&gt;rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vectorsort&#34;&gt;Vectorsort - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr müsst mit großer Wahrscheinlichkeit folgendes einfügen, um die LIbs zu importieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;lt;vector&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um die neue Zahl hinten an den Vektor anzuhängen, könnt ihr &lt;code&gt;vec.push_back(input);&lt;/code&gt; nutzen&lt;/li&gt;
+&lt;li&gt;Zum Sortieren müsst ihr einerseits eine Funktion deklarieren, die Werte miteinander vergleicht, und dann &lt;code&gt;std::sort&lt;/code&gt; benutzen, um zB aufsteigend zu sortieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;bool sort_asc(int i, int j) { return (i &amp;lt; j);
+// und später im Code
+std::sort(vec.begin(), vec.end(), sort_asc);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;configparser&#34;&gt;ConfigurationParser - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Den ConfigParser werdet ihr den Rest des Praktikums verwenden, also nimmt euch ein bisschen Zeit für ihn&lt;/li&gt;
+&lt;li&gt;Eine Datei öffnen könnt ihr mit Hilfe von:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  ifstream fs;
+    fs.open(file);
+    if (!fs.is_open()) {
+        cout &amp;lt;&amp;lt; &amp;quot;Wrong Filepath&amp;quot; &amp;lt;&amp;lt; endl;
+        return;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zur Ausgabe der Werte könnt ihr folgende Methode verwenden:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;void ConfigParser::toStdOut()
+{
+    std::cout &amp;lt;&amp;lt; &amp;quot;Spinning: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinning &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;spinSpeed: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinSpeed &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;bg Color: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.r &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.b &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.g &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainWidth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainWidth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainDepth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainDepth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainHeight: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainHeight &amp;lt;&amp;lt; std::endl;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;die &lt;code&gt;game.cfg&lt;/code&gt; muss in das &lt;code&gt;SolutionName\ConfigurationParser&lt;/code&gt; Verzeichnis damit es gefunden wird, wenn man das Programm mit Strg+F5 startet
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/h2&gt;
+
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+
+&lt;p&gt;Das sieht schon ziemlich cool aus, oder? :)&lt;/p&gt;
+
+&lt;h3 id=&#34;projectsetup&#34;&gt;Project Setup - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wenn es bei euch mit dem angegebenen Pfad nicht funktioniert, dann probiert es mit mehr oder weniger &lt;code&gt;..&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr die Include Verzeichnisse und Library Verzeichnisse für beide Konfigurationen einstellt und nicht nur für Debug oder Release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cmdline&#34;&gt;Command Line and Test Heightfield - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mit &lt;code&gt;generator.seed((unsigned long)time(nullptr));&lt;/code&gt; könnt ihr dem Generator die aktuellen Zeit als Startwert geben um zufällige Ergebnisse zu bekommen&lt;/li&gt;
+&lt;li&gt;Eure main Methode muss wie folgt aussehen &lt;code&gt;int _tmain(int argc, _TCHAR* argv[])&lt;/code&gt;, wenn ihr nicht _tmain verwendet, wird das Parsen der Argumente nicht funktionieren !&lt;/li&gt;
+&lt;li&gt;Damit ihr das Programm mit Command Line ARguments startet, dann müsst ihr, Rechtsklick auf das Projekt &amp;ndash;&amp;gt; Debugging &amp;ndash;&amp;gt; Command Line Arguments und dort zB folgendes hinschreiben &lt;code&gt;-r 8 -o_height terrain_height.png -o_color terrain_color.png -o_normal terrain_normal.png&lt;/code&gt; (der Wert für die Resolution wird nachhe rnatürlich höher sein)&lt;/li&gt;
+&lt;li&gt;Überprüft zuerst die gesammte Anzahl an Argumente, ob diese stimmt und danach die einzelnen Argumente&lt;/li&gt;
+&lt;li&gt;Die Überprüfung der Argumente könnte wie folgt aussehen: &lt;code&gt;!_tcscmp(argv[1], _T(&amp;quot;-r&amp;quot;))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Die Konvertierung der Eingaben geht wie folgt: &lt;code&gt;_tstoi(argv[2])&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ihr müsst zuerst ein &lt;em&gt;std::wstring&lt;/em&gt; aus den Parametern erzeugen und diesen dann in einen &amp;ldquo;normalen&amp;rdquo; &lt;em&gt;std::string&lt;/em&gt; konvertieren, ein kleines Beispiel:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  std::wstring temp_normal(argv[8]);
+  std::string pNormal = std::string(temp_normal.begin(), temp_normal.end());
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Für die normalverteilten Zufallswerte müsst ihr erst die Mitte und Standardabweichung berechnen und dann:
+&lt;code&gt;std::normal_distribution&amp;lt;float&amp;gt; distribution(midPoint, stdDev);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus - Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter &lt;a href=&#34;https://carnivean.github.io/algorithms/dsa&#34;&gt;/algorithms/dsa&lt;/a&gt; finden - not yet, leider bisher keine Zeit gehabt&amp;hellip; - Kommt definitiv vor der Klausur zur Vorbereitung&lt;/li&gt;
+&lt;li&gt;Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen&lt;/li&gt;
+&lt;li&gt;Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5&lt;/li&gt;
+&lt;li&gt;Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Color- und Normalmaps wie folgt erstellen:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;GEDUtils::TextureGenerator TexGen(L&amp;quot;../../../external/textures/gras15.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/ground02.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/pebble03.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/rock4.jpg&amp;quot;);
+    TexGen.generateAndStoreImages(heightField, resolution - 1, std::wstring(sColor.begin(), sColor.end()),
+        std::wstring(sNormal.begin(), sNormal.end()));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ass03&#34;&gt;Assignment 03 - Texture Generation&lt;/h2&gt;
+
+&lt;p&gt;Zum Debuggen der beiden Methoden wäre es vorteilhaft ein DebugHeightfield zu erstellen, anstatt jedesmal den komplette DSA durchlaufen zu lassen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;void createDebugHeightField(vector&amp;lt;float&amp;gt;&amp;amp; heightField)
+{
+    int size = resolution * resolution;
+    heightField.clear();
+    heightField.reserve(size);
+    for (int i = 0; i &amp;lt; size; i++)
+    {
+        heightField.push_back((float)i / (float)size);
+    }
+    return;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;normalcalc&#34;&gt;Normal Calculation - 3 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Achtet darauf, dass bei der Formel für den Vektor -x und -y Werte stehen !&lt;/li&gt;
+&lt;li&gt;Ihr müsst die Normale normalisieren, auf [0, 1] mappen und schließlich den ganzen Vektor normalisere&lt;/li&gt;
+&lt;li&gt;Ihr müsst den Vektor auf die richtige Größe setzen, zB mit:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  normalMap.clear();
+  normalMap.reserve(resolution * resolution);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um den Vektor zu normalisieren benötigt ihr die Länge des Vektors:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    normal_length = sqrt((x_dv*x_dv) + (y_dv*y_dv) + 1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn eure NormalMap komplett blau ist, dann habt ihr z falsch berechnet, zB das normalisieren vergessen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;textureblending&#34;&gt;Texture Blending - 5 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diese Aufgabe scheint anfangs extrem unübersichtlich, macht einen Schritt nach dem anderen&lt;/li&gt;
+&lt;li&gt;Ich hatte am Ende folgende Klassen &lt;code&gt;Texture, TextureBlending, NormalMap, TerrainGenerator&lt;/code&gt; es gibt aber natürlich auch andere Möglichkeiten&lt;/li&gt;
+&lt;li&gt;Von den Texturen benötigt ihr auf jeden Fall die Größe und ich würde euch empfehlen die Farben in einem 2D Array zu speichern&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Aufgabe komplett selber einteilen, beliebige Hilfsmethoden und Klassen schreiben, also tut es auch ;)&lt;/li&gt;
+&lt;li&gt;Das Blending der Texturen sollte aus der Vorlesung bekannt sein bzw. auf den Slides ist es nochmal erklärt, inklusive Formel
+&lt;img src=&#34;https://carnivean.github.io/img/textureblend.PNG&#34; alt=&#34;textureblendformel&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Falls ihr es hierher geschafft habt, dann wird es jetzt DEUTLICH einfacher&lt;/li&gt;
+&lt;li&gt;Das berechnen der Durchschnittswerte sollte euch von Smoothen bekannst vorkommen, nur dass ihr diesmal keine Sonderbehandlung machen müsst, da ihr niemals aus dem Array raus lauft&lt;/li&gt;
+&lt;li&gt;Addiert einfach die Werte auf und berechnet den Durchschnitt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen&lt;/li&gt;
+&lt;li&gt;Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ass04&#34;&gt;Assignment 04 - Interactive 3D Terrain Rendering&lt;/h2&gt;
+
+&lt;h3 id=&#34;setup&#34;&gt;Setup - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Die Aufgabe sollte euch hoffentlich 0 Probleme bereiten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;buffercreation&#34;&gt;Buffer Creation - 7 Punkte - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die Graphical Debugging Tools von VS, dies funktioniert anders als normales Debuggen (siehe Tutorstunde)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;Debug --&amp;gt; Graphics Tools --&amp;gt; Start Graphics Debugging
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die zusätzlichen Links, die auf der VL Seite angegeben sind, falls ihr mit DirectX nicht klar kommt, besonders zu empfehlen ist:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rastertek.com/tutdx11.html&#34;&gt;Rastertek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.directxtutorial.com/LessonList.aspx?listid=11&#34;&gt;DirectX Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Arbeitet euch nach und nach durch die angegebenen Funktionen und ignoriert den Rest, außer ihr seid euch sehr sicher, was ihr tut&lt;/li&gt;
+&lt;li&gt;Draw vs DrawIndexed sollte aus der VL bekannt sein, ansonsten ist auf den Slides nochmal ein Bsp angegeben&lt;/li&gt;
+&lt;li&gt;Bitte nutzt eine &lt;code&gt;struct&lt;/code&gt; für die Vertices, es macht euren Code sehr viel cleaner und einfacher zu verstehen
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/ged17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/ged17/</guid>
+      <description>
+
+&lt;h1 id=&#34;ged-ss-17&#34;&gt;GED SS 17&lt;/h1&gt;
+
+&lt;h2 id=&#34;zusätzliche-officestunde-am-samstag&#34;&gt;Zusätzliche Officestunde am Samstag&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Heute am 10. Juni leider kurzfristig keine Officestunde, Fragen per WhatsApp oder Mail stellen.&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;aktuelles&#34;&gt;Aktuelles&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;Aus aktuellem Anlass, testet eure Abgaben, ich werde ab der nächsten Abgabe nur noch strikt eure Readme lesen, Sachen maximal anpassen, wie es dadrin steht und ansonsten 0 Punkte geben.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;die-letzten-updates&#34;&gt;Die letzten Updates:&lt;/h3&gt;
+
+&lt;p&gt;30.05.: Assignment 04 komplett hinzugefügt&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#generell&#34;&gt;Generell&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bewertung&#34;&gt;Bewertung der Abgaben&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#praktikum&#34;&gt;Praktikum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vorlesung&#34;&gt;Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-0&#34;&gt;Assignment 0&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#git&#34;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-1&#34;&gt;Assignment 1&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#2dsmootharray&#34;&gt;2DSmoothArray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#vectorsort&#34;&gt;VectorSort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configparser&#34;&gt;ConfigurationParser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#projectsetup&#34;&gt;Project Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmdline&#34;&gt;Command Line and Test Heightfield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass03&#34;&gt;Assignment 3 - Texture Generation&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#normalcalc&#34;&gt;Normal Calculation - 3 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textureblending&#34;&gt;Texture Blending - 5 Punkte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ass04&#34;&gt;Assignment 4 - Interactive 3D Terrain Rendering&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup - 1 Punkt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buffercreation&#34;&gt;Buffer Creation - 7 Punkte&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;generell&#34;&gt;Generell&lt;/h2&gt;
+
+&lt;h3 id=&#34;visual-studio-issues&#34;&gt;Visual Studio Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C++ wird NICHT standardmäßig installiert, wenn ihr VS 2015 installiert, ihr müsst dies entweder manuell auswählen oder nachträglich die Installation modifizieren&lt;/li&gt;
+&lt;li&gt;Restartet euren PC falls ihr kein C++ Projekt erstellen könnt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bewertung&#34;&gt;Bewertung der Abgaben&lt;/h3&gt;
+
+&lt;p&gt;Hier einige Punkte, wie ich (und die anderen Tutoren), eure Abgaben bewerten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich clone euer Repo jedesmal komplett frisch und nutze den LETZTEN commit vor der Deadline, wenn ich einen anderen (älteren) commit bewerten soll, dann macht dies bitte in der Readme deutlich&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt; !!!  Wenn Euer Projekt, nachdem man es frisch geclont hat, nicht compiliert, dann wird es mit 0 Punkten für die Woche bewertet !!!
+
+&lt;ul&gt;
+&lt;li&gt;also testet dies bitte, indem ihr euer Projekt selber einmal in ein neues Verzeichnis clont und es dann startet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Memory Leaks in eurem Code werden ab dem 2. oder 3. Assignment mit -1 P bewertet, egal wie groß oder klein der Leak ist&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr stets Debug und Release testet, da ich auch beides tun werden&lt;/li&gt;
+&lt;li&gt;Wenn euer Endprodukt richtig aussieht, sprich zB das Terrain richtig gerendet wird, dann bekommt ihr auch die Punkte, auch wenn ihr zB die Werte auf 0.99 statt auf 1.0 begrenzt &amp;ndash;&amp;gt; es soll ein Engine werden, Aussehen &amp;gt; physikalische Korrektheit&lt;/li&gt;
+&lt;li&gt;Ja es gibt für einige der Assignments Lösungen, die man mit etwas Googlen findet, nur können wir das auch&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ich habe eine Liste aus den häufigsten Fragen/Probleme der letzten Jahre zusammengestellt und werde diese während des Semesters immer wieder updaten, &lt;strong&gt;&lt;em&gt;momentaner Status: Bis Assignment 3&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Link: &lt;a href=&#34;https://carnivean.github.io/faq/&#34;&gt;FAQ GED&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;klausurvorbereitung&#34;&gt;Klausurvorbereitung&lt;/h2&gt;
+
+&lt;p&gt;Ich werde diesen Bereich während des Semesters laufend updaten und gerade in den Wochen vor der Klausur mit hoffentlich viel Material füllen.&lt;/p&gt;
+
+&lt;p&gt;Für den Moment gibt es den Link zu den Flashcards mit denen ich letztes Jahr für beides gelernt habe:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/join/fPxRyYeAB&#34;&gt;Quizlet: Sammlung aller Lernsets für GED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quizlet.com/204707976/praktikum-vorlesung-flash-cards/&#34;&gt;Quizlet: Praktikum und Vorlesung&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;praktikum&#34;&gt;Praktikum&lt;/h3&gt;
+
+&lt;p&gt;Coming Soon&lt;/p&gt;
+
+&lt;h3 id=&#34;vorlesung&#34;&gt;Vorlesung&lt;/h3&gt;
+
+&lt;p&gt;Coming Soon
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;schwierigkeitsgrad&#34;&gt;Schwierigkeitsgrad&lt;/h2&gt;
+
+&lt;p&gt;Ich werde alle Aufgaben des Praktikums von der Schwierigkeit einordnen. Das hat für euch den Vorteil, dass ihr vorher schon sehen könnt, wie schwierig diese Woche wird und wie viel Zeit ihr ungefähr brauchen werdet - wichtig ist nur anzumerken, dass ist eine rein subjektive Einschätzung, andere Leute würde vielleicht völlig andere Wert vergeben, aber ich tue mein Bestes :).&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Life is rough &lt;img src=&#34;https://carnivean.github.io/img/diff5.png&#34; alt=&#34;rough&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;assignment-0&#34;&gt;Assignment 0&lt;/h2&gt;
+
+&lt;h3 id=&#34;git&#34;&gt;Git - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;p&gt;-&lt;strong&gt;&lt;em&gt;Im Moment müsst ihr &lt;code&gt;git clone https://tum3d.in.tum.de:80/git/SS17/GED/external&lt;/code&gt; verwenden, da die Portweiterleitung des Servers nicht funktioniert&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr braucht nicht viel Git wissen für das GED Praktikum (auch wenn es extrem hilfreich für den weiteren Studienverlauf ist und es nach dem Studium erwartet wird ;))&lt;/li&gt;
+&lt;li&gt;Ein kurzes aber gutes Tutorial, wobei selbst das wahrscheinlich schon zu viel ist: &lt;a href=&#34;http://rogerdudler.github.io/git-guide/&#34;&gt;http://rogerdudler.github.io/git-guide/&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-1&#34;&gt;Assignment 1&lt;/h2&gt;
+
+&lt;h3 id=&#34;2dsmootharray&#34;&gt;2DSmoothArray - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn ihr malloc benutzen wollt für das Array, müsst Ihr &lt;code&gt;#include &amp;quot;stdlib.h&amp;quot;&lt;/code&gt; hinzufügen&lt;/li&gt;
+&lt;li&gt;smoothArray kann zum Beispiel über eine 4-fach verschachtelte Loops gelöst werden&lt;/li&gt;
+&lt;li&gt;smoothArray stellt sicher, dass eure Indizes für x und y &amp;gt; 0 aber x &amp;lt; width und y &amp;lt; height sind&lt;/li&gt;
+&lt;li&gt;rand() gibt einen int zurück, ihr müsst den Wert in einen float verwandeln um zufällige Werte zwischen 0 und 1 zu erhalten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vectorsort&#34;&gt;Vectorsort - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ihr müsst mit großer Wahrscheinlichkeit folgendes einfügen, um die LIbs zu importieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;lt;vector&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um die neue Zahl hinten an den Vektor anzuhängen, könnt ihr &lt;code&gt;vec.push_back(input);&lt;/code&gt; nutzen&lt;/li&gt;
+&lt;li&gt;Zum Sortieren müsst ihr einerseits eine Funktion deklarieren, die Werte miteinander vergleicht, und dann &lt;code&gt;std::sort&lt;/code&gt; benutzen, um zB aufsteigend zu sortieren:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;bool sort_asc(int i, int j) { return (i &amp;lt; j);
+// und später im Code
+std::sort(vec.begin(), vec.end(), sort_asc);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;configparser&#34;&gt;ConfigurationParser - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Den ConfigParser werdet ihr den Rest des Praktikums verwenden, also nimmt euch ein bisschen Zeit für ihn&lt;/li&gt;
+&lt;li&gt;Eine Datei öffnen könnt ihr mit Hilfe von:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  ifstream fs;
+    fs.open(file);
+    if (!fs.is_open()) {
+        cout &amp;lt;&amp;lt; &amp;quot;Wrong Filepath&amp;quot; &amp;lt;&amp;lt; endl;
+        return;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zur Ausgabe der Werte könnt ihr folgende Methode verwenden:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;void ConfigParser::toStdOut()
+{
+    std::cout &amp;lt;&amp;lt; &amp;quot;Spinning: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinning &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;spinSpeed: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;spinSpeed &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;bg Color: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.r &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.b &amp;lt;&amp;lt; &amp;quot;, &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;backgroundColor.g &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainWidth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainWidth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainDepth: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainDepth &amp;lt;&amp;lt; std::endl;
+    std::cout &amp;lt;&amp;lt; &amp;quot;terrainHeight: &amp;quot; &amp;lt;&amp;lt; this-&amp;gt;terrainHeight &amp;lt;&amp;lt; std::endl;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;die &lt;code&gt;game.cfg&lt;/code&gt; muss in das &lt;code&gt;SolutionName\ConfigurationParser&lt;/code&gt; Verzeichnis damit es gefunden wird, wenn man das Programm mit Strg+F5 startet
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignment-2&#34;&gt;Assignment 2 - Fractal Landscape Generation&lt;/h2&gt;
+
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+
+&lt;p&gt;Das sieht schon ziemlich cool aus, oder? :)&lt;/p&gt;
+
+&lt;h3 id=&#34;projectsetup&#34;&gt;Project Setup - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wenn es bei euch mit dem angegebenen Pfad nicht funktioniert, dann probiert es mit mehr oder weniger &lt;code&gt;..&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Achtet darauf, dass ihr die Include Verzeichnisse und Library Verzeichnisse für beide Konfigurationen einstellt und nicht nur für Debug oder Release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cmdline&#34;&gt;Command Line and Test Heightfield - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mit &lt;code&gt;generator.seed((unsigned long)time(nullptr));&lt;/code&gt; könnt ihr dem Generator die aktuellen Zeit als Startwert geben um zufällige Ergebnisse zu bekommen&lt;/li&gt;
+&lt;li&gt;Eure main Methode muss wie folgt aussehen &lt;code&gt;int _tmain(int argc, _TCHAR* argv[])&lt;/code&gt;, wenn ihr nicht _tmain verwendet, wird das Parsen der Argumente nicht funktionieren !&lt;/li&gt;
+&lt;li&gt;Damit ihr das Programm mit Command Line ARguments startet, dann müsst ihr, Rechtsklick auf das Projekt &amp;ndash;&amp;gt; Debugging &amp;ndash;&amp;gt; Command Line Arguments und dort zB folgendes hinschreiben &lt;code&gt;-r 8 -o_height terrain_height.png -o_color terrain_color.png -o_normal terrain_normal.png&lt;/code&gt; (der Wert für die Resolution wird nachhe rnatürlich höher sein)&lt;/li&gt;
+&lt;li&gt;Überprüft zuerst die gesammte Anzahl an Argumente, ob diese stimmt und danach die einzelnen Argumente&lt;/li&gt;
+&lt;li&gt;Die Überprüfung der Argumente könnte wie folgt aussehen: &lt;code&gt;!_tcscmp(argv[1], _T(&amp;quot;-r&amp;quot;))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Die Konvertierung der Eingaben geht wie folgt: &lt;code&gt;_tstoi(argv[2])&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ihr müsst zuerst ein &lt;em&gt;std::wstring&lt;/em&gt; aus den Parametern erzeugen und diesen dann in einen &amp;ldquo;normalen&amp;rdquo; &lt;em&gt;std::string&lt;/em&gt; konvertieren, ein kleines Beispiel:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  std::wstring temp_normal(argv[8]);
+  std::string pNormal = std::string(temp_normal.begin(), temp_normal.end());        
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Für die normalverteilten Zufallswerte müsst ihr erst die Mitte und Standardabweichung berechnen und dann:
+&lt;code&gt;std::normal_distribution&amp;lt;float&amp;gt; distribution(midPoint, stdDev);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus - Es wird anspruchsvoll &lt;img src=&#34;https://carnivean.github.io/img/diff4.png&#34; alt=&#34;anspruchsvoll&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Übungen und zusätzliche Informationen (speziell zur Klausurvorbereitung) über den Algorithmus könnt ihr unter &lt;a href=&#34;https://carnivean.github.io/algorithms/dsa&#34;&gt;/algorithms/dsa&lt;/a&gt; finden - not yet, leider bisher keine Zeit gehabt&amp;hellip; - Kommt definitiv vor der Klausur zur Vorbereitung&lt;/li&gt;
+&lt;li&gt;Ich würde empfehlen, für den Diamond und Square Step jeweils eigene Funktionen zu machen, um es übersichtlicher zu machen&lt;/li&gt;
+&lt;li&gt;Für den DSA Algorithmus braucht ihr ein Vector der Größe (Resolution + 1)*(Resolution + 1), also für ein Heightfield der Größe 4x4 ein Vector der Größe 5x5&lt;/li&gt;
+&lt;li&gt;Nachdem der DSA Algorithmus durchgelaufen ist, übernimmt die Werte im Bereich (Resolution)*(Resolution) und speichert dies&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Color- und Normalmaps wie folgt erstellen:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;GEDUtils::TextureGenerator TexGen(L&amp;quot;../../../external/textures/gras15.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/ground02.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/pebble03.jpg&amp;quot;,
+        L&amp;quot;../../../external/textures/rock4.jpg&amp;quot;);
+    TexGen.generateAndStoreImages(heightField, resolution - 1, std::wstring(sColor.begin(), sColor.end()),
+        std::wstring(sNormal.begin(), sNormal.end()));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ass03&#34;&gt;Assignment 03 - Texture Generation&lt;/h2&gt;
+
+&lt;p&gt;Zum Debuggen der beiden Methoden wäre es vorteilhaft ein DebugHeightfield zu erstellen, anstatt jedesmal den komplette DSA durchlaufen zu lassen:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;void createDebugHeightField(vector&amp;lt;float&amp;gt;&amp;amp; heightField)
+{
+    int size = resolution * resolution;
+    heightField.clear();
+    heightField.reserve(size);
+    for (int i = 0; i &amp;lt; size; i++)
+    {
+        heightField.push_back((float)i / (float)size);
+    }
+    return;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;normalcalc&#34;&gt;Normal Calculation - 3 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Achtet darauf, dass bei der Formel für den Vektor -x und -y Werte stehen !&lt;/li&gt;
+&lt;li&gt;Ihr müsst die Normale normalisieren, auf [0, 1] mappen und schließlich den ganzen Vektor normalisere&lt;/li&gt;
+&lt;li&gt;Ihr müsst den Vektor auf die richtige Größe setzen, zB mit:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;  normalMap.clear();
+  normalMap.reserve(resolution * resolution);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Um den Vektor zu normalisieren benötigt ihr die Länge des Vektors:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    normal_length = sqrt((x_dv*x_dv) + (y_dv*y_dv) + 1);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wenn eure NormalMap komplett blau ist, dann habt ihr z falsch berechnet, zB das normalisieren vergessen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;textureblending&#34;&gt;Texture Blending - 5 Punkte - Inferno &lt;img src=&#34;https://carnivean.github.io/img/diff6.png&#34; alt=&#34;inferno&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diese Aufgabe scheint anfangs extrem unübersichtlich, macht einen Schritt nach dem anderen&lt;/li&gt;
+&lt;li&gt;Ich hatte am Ende folgende Klassen &lt;code&gt;Texture, TextureBlending, NormalMap, TerrainGenerator&lt;/code&gt; es gibt aber natürlich auch andere Möglichkeiten&lt;/li&gt;
+&lt;li&gt;Von den Texturen benötigt ihr auf jeden Fall die Größe und ich würde euch empfehlen die Farben in einem 2D Array zu speichern&lt;/li&gt;
+&lt;li&gt;Ihr könnt die Aufgabe komplett selber einteilen, beliebige Hilfsmethoden und Klassen schreiben, also tut es auch ;)&lt;/li&gt;
+&lt;li&gt;Das Blending der Texturen sollte aus der Vorlesung bekannt sein bzw. auf den Slides ist es nochmal erklärt, inklusive Formel
+&lt;img src=&#34;https://carnivean.github.io/img/textureblend.PNG&#34; alt=&#34;textureblendformel&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hfdownsizing&#34;&gt;Heightfield Downsizing - 1 Punkt - Noch einfach &lt;img src=&#34;https://carnivean.github.io/img/diff2.png&#34; alt=&#34;noch einfach&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Falls ihr es hierher geschafft habt, dann wird es jetzt DEUTLICH einfacher&lt;/li&gt;
+&lt;li&gt;Das berechnen der Durchschnittswerte sollte euch von Smoothen bekannst vorkommen, nur dass ihr diesmal keine Sonderbehandlung machen müsst, da ihr niemals aus dem Array raus lauft&lt;/li&gt;
+&lt;li&gt;Addiert einfach die Werte auf und berechnet den Durchschnitt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;contentpipeline&#34;&gt;Simple Content Pipeline - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hier müsst ihr zu 90% nur Copy and Pasten und event. an eure Ordnerstruktur anpassen&lt;/li&gt;
+&lt;li&gt;Scheut euch die beiden Beispiele an, kopiert sie und passt es an
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ass04&#34;&gt;Assignment 04 - Interactive 3D Terrain Rendering&lt;/h2&gt;
+
+&lt;h3 id=&#34;setup&#34;&gt;Setup - 1 Punkt - Easy &lt;img src=&#34;https://carnivean.github.io/img/diff1.png&#34; alt=&#34;easy&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Die Aufgabe sollte euch hoffentlich 0 Probleme bereiten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;buffercreation&#34;&gt;Buffer Creation - 7 Punkte - Mittel &lt;img src=&#34;https://carnivean.github.io/img/diff3.png&#34; alt=&#34;mittel&#34; /&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die Graphical Debugging Tools von VS, dies funktioniert anders als normales Debuggen (siehe Tutorstunde)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;Debug --&amp;gt; Graphics Tools --&amp;gt; Start Graphics Debugging
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nutzt die zusätzlichen Links, die auf der VL Seite angegeben sind, falls ihr mit DirectX nicht klar kommt, besonders zu empfehlen ist:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rastertek.com/tutdx11.html&#34;&gt;Rastertek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.directxtutorial.com/LessonList.aspx?listid=11&#34;&gt;DirectX Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Arbeitet euch nach und nach durch die angegebenen Funktionen und ignoriert den Rest, außer ihr seid euch sehr sicher, was ihr tut&lt;/li&gt;
+&lt;li&gt;Draw vs DrawIndexed sollte aus der VL bekannt sein, ansonsten ist auf den Slides nochmal ein Bsp angegeben&lt;/li&gt;
+&lt;li&gt;Bitte nutzt eine &lt;code&gt;struct&lt;/code&gt; für die Vertices, es macht euren Code sehr viel cleaner und einfacher zu verstehen
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/info1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/info1/</guid>
+      <description>
+
+&lt;h1 id=&#34;repertorium-für-einführung-in-die-informatik-1&#34;&gt;Repertorium für Einführung in die Informatik 1&lt;/h1&gt;
+
+&lt;h2 id=&#34;themen-des-repertoriums&#34;&gt;Themen des Repertoriums&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#java-grundlagen&#34;&gt;Java Grundlagen: Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syntax&#34;&gt;Syntax: Arrays, Reguläre Ausdrücke (kurz), Syntaxbäume, Kontrollflussdiagramme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rekursion&#34;&gt;Rekursion: Endkursiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung: Klassen, Objekte, Listen, Vererbung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/a&gt;
+5.2. &lt;a href=&#34;#polymorphie&#34;&gt;Polymorphie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#interfaces&#34;&gt;Interfaces, abstrakte/finale Klassen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#threads&#34;&gt;Threads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#freeforall&#34;&gt;Free for all&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;ablauf-letzte-3-tage&#34;&gt;Ablauf letzte 3 Tage&lt;/h2&gt;
+
+&lt;h3 id=&#34;dienstag&#34;&gt;Dienstag&lt;/h3&gt;
+
+&lt;p&gt;Interfaces, abstrakte und finale Klassen, Lambda Ausdrücke&lt;/p&gt;
+
+&lt;h3 id=&#34;mittwoch&#34;&gt;Mittwoch&lt;/h3&gt;
+
+&lt;h4 id=&#34;vormittags&#34;&gt;Vormittags&lt;/h4&gt;
+
+&lt;p&gt;Frage und Wiederholung allgemein&lt;/p&gt;
+
+&lt;h4 id=&#34;nachmittags&#34;&gt;Nachmittags&lt;/h4&gt;
+
+&lt;p&gt;Threads&lt;/p&gt;
+
+&lt;h3 id=&#34;donnerstag&#34;&gt;Donnerstag&lt;/h3&gt;
+
+&lt;p&gt;event. Threads noch fertig machen, ansonsten Frage und Wiederholung allgemein&lt;/p&gt;
+
+&lt;h2 id=&#34;java-grundlagen&#34;&gt;Java Grundlagen&lt;/h2&gt;
+
+&lt;h3 id=&#34;datentypen-ausdrücke-kontrollstrukturen-schleifen&#34;&gt;Datentypen, Ausdrücke, Kontrollstrukturen, Schleifen&lt;/h3&gt;
+
+&lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
+
+&lt;h3 id=&#34;arrays-syntaxbäume-kontrollflussdiagramme-reguläre-ausdrucke-kurz&#34;&gt;Arrays, Syntaxbäume, Kontrollflussdiagramme, Reguläre Ausdrucke (kurz)&lt;/h3&gt;
+
+&lt;h5 id=&#34;arrays&#34;&gt;Arrays&lt;/h5&gt;
+
+&lt;p&gt;Eine Lösungsmöglichkeit für die Aufgaben findet ihr hier: &lt;a href=&#34;https://carnivean.github.io/src/RepArrays.java&#34;&gt;RepArrays.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;syntaxbäume-lösungen&#34;&gt;Syntaxbäume Lösungen&lt;/h4&gt;
+
+&lt;p&gt;a)
+&lt;img src=&#34;https://carnivean.github.io/img/syntax_a.png&#34; alt=&#34;Syntaxbaum für Aufgabe a)&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;b)
+&lt;img src=&#34;https://carnivean.github.io/img/syntax_b.png&#34; alt=&#34;Syntaxbaum für Aufgabe b)&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;reguläre-ausdrücke-lösungen&#34;&gt;Reguläre Ausdrücke Lösungen&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_decimal_numbers&#34;&gt;Problem 1: Matching a decimal numbers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;-?(\d|,|\.)+(e\d+)?$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_phone_numbers&#34;&gt;Problem 2: Matching phone numbers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;1?(-|\W)?(\((\d{3})\)|(\d{3}))(-|\W)?(\d{3})(-|\W)?(\d{4})&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_emails&#34;&gt;Problem 3: Matching emails&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;((\w|\.)+)(\+\w+)?@\w+.(eu)?.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_html&#34;&gt;Problem 4: Matching HTML&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\&amp;lt;(\w+)(\s+.+)?\&amp;gt;.+\&amp;lt;\/\1\&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/matching_filenames&#34;&gt;Problem 5: Matching specific filenames&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(\w+).(gif|jpg|png)$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/trimming_whitespace?&#34;&gt;Problem 6: Trimming whitespace from start and end of line&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;^\s*((\w|\s|\.)+$&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/extracting_log_data?&#34;&gt;Problem 7: Extracting information from a log file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;\.(\w+)\((\w+.java):(\d+)\)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://regexone.com/problem/extracting_url_data?&#34;&gt;Problem 8: Parsing and extracting data from a URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(\w+):\/\/((\w+|-|\.)+)(:(\d+))?\/(.+)?&lt;/code&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rekursion&#34;&gt;Rekursion&lt;/h2&gt;
+
+&lt;h3 id=&#34;rekursion-endrekursion&#34;&gt;Rekursion &amp;amp; Endrekursion&lt;/h3&gt;
+
+&lt;p&gt;Eine Lösungsmöglichkeit für die Aufgaben findet ihr hier: &lt;a href=&#34;https://carnivean.github.io/src/RepRekursiv.java&#34;&gt;RepRekursiv.java&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;objektorentierte-programmierung&#34;&gt;Objektorentierte Programmierung&lt;/h2&gt;
+
+&lt;h3 id=&#34;klassen-objekte&#34;&gt;Klassen, Objekte&lt;/h3&gt;
+
+&lt;p&gt;Die Lösung für die Bücher: &lt;a href=&#34;https://carnivean.github.io/src/Book.java&#34;&gt;Book.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;listen&#34;&gt;Listen&lt;/h4&gt;
+
+&lt;p&gt;Die erweiterte Lösung für die Liste + Testklasse: &lt;a href=&#34;https://carnivean.github.io/src/List.java&#34;&gt;List.java&lt;/a&gt; und &lt;a href=&#34;https://carnivean.github.io/src/ListTest.java&#34;&gt;ListTest.java&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sortier-und-suchalgorithmen&#34;&gt;Sortier- und Suchalgorithmen&lt;/h2&gt;
+
+&lt;h4 id=&#34;suchalgorithmen&#34;&gt;Suchalgorithmen&lt;/h4&gt;
+
+&lt;p&gt;Suche: &lt;a href=&#34;https://carnivean.github.io/src/Search.java&#34;&gt;Search.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;sortieralgorithmen&#34;&gt;Sortieralgorithmen&lt;/h4&gt;
+
+&lt;p&gt;Insertionsort: &lt;a href=&#34;https://carnivean.github.io/src/Sorts.java&#34;&gt;Sorts.java&lt;/a&gt;, Mergesort: &lt;a href=&#34;https://carnivean.github.io/src/MergeSortList.java&#34;&gt;MergeSortList.java&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;polymorphie&#34;&gt;Polymorphie&lt;/h2&gt;
+
+&lt;p&gt;Siehe &lt;a href=&#34;https://moodle.stecrz.de/&#34;&gt;Moodle von meinem Kollegen Stefan Berktold&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;interfaces&#34;&gt;Interfaces&lt;/h2&gt;
+
+&lt;h4 id=&#34;interfaces-1&#34;&gt;Interfaces&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-00-introduction-to-computers-and-engineering-problem-solving-spring-2012/lecture-notes/MIT1_00S12_Lec_15.pdf&#34;&gt;MIT OCW - Interfaces&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus.java&#34;&gt;Bus.java&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Bus/BusTest.java&#34;&gt;BusTest.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Bus/CNGBus.java&#34;&gt;CNGBus.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/Electric.java&#34;&gt;Electric.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/ElectricBus.java&#34;&gt;ElectricBus.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/Hybrid.java&#34;&gt;Hybrid.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Bus/LiquidFuel.java&#34;&gt;LiquidFuel.java&lt;/a&gt;,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://davin.50webs.com/research/1999/egs/q14.pdf&#34;&gt;Interfaces Exercises&lt;/a&gt;, &lt;a href=&#34;http://davin.50webs.com/research/1999/egs/InterTest.java&#34;&gt;InterTest.java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/aufgabe_abstract.pdf&#34;&gt;Abstract &amp;amp; Interface Exercise&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Shape/Shape.java&#34;&gt;Shape.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Shape/Rectangle.java&#34;&gt;Rectangle.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Shape/RtTriangle.java&#34;&gt;RtTriangle.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Shape/Resizable.java&#34;&gt;Resizable.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Shape/ShapeTest.java&#34;&gt;ShapeTest.java&lt;/a&gt;,&lt;/p&gt;
+
+&lt;h4 id=&#34;lambda-ausdrücke&#34;&gt;Lambda Ausdrücke&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.sw-engineering-candies.com/blog-1/Streams-Lambda-Expressions-by-Examples&#34;&gt;Erklärung und kleine Aufgaben&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;threads&#34;&gt;Threads&lt;/h2&gt;
+
+&lt;h5 id=&#34;threads-1&#34;&gt;Threads&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/src/Threads.pdf&#34;&gt;Threads zusammengestellte Klausuraufgaben&lt;/a&gt; - Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Threads_Solution.pdf&#34;&gt;Threads_Solution.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aufgabe &lt;code&gt;public static sum(int[] input, int numThreads)&lt;/code&gt;- Lösung: &lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThread.java&#34;&gt;SumThread.java&lt;/a&gt;, &lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThreadRunner.java&#34;&gt;SumThreadRunner.java&lt;/a&gt;,
+&lt;a href=&#34;https://carnivean.github.io/src/Threads/SumThreadTest.java&#34;&gt;SumThreadTest.java&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;free-for-all&#34;&gt;Free for all :-)&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/info1ws17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/info1ws17/</guid>
+      <description>
+
+&lt;h1 id=&#34;hausaufgabenbesprechung-für-einführung-in-die-informatik-1-ws17-18&#34;&gt;Hausaufgabenbesprechung für Einführung in die Informatik 1 WS17/18&lt;/h1&gt;
+
+&lt;h3 id=&#34;alternative-lösungen-von-einer-tutorin&#34;&gt;Alternative Lösungen von einer Tutorin&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pinguine: &lt;a href=&#34;https://carnivean.github.io/src/Kira/SweetPingus.java&#34;&gt;SweetPingus.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Basen: &lt;a href=&#34;https://carnivean.github.io/src/Kira/BubbleTrouble.java&#34;&gt;BubbleTrouble.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gauß: &lt;a href=&#34;https://carnivean.github.io/src/Kira/GrausGauß.java&#34;&gt;GrausGauß.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;XOR: &lt;a href=&#34;https://carnivean.github.io/src/Kira/XOR.java&#34;&gt;XOR.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringray: &lt;a href=&#34;https://carnivean.github.io/src/Kira/Stringray.java&#34;&gt;Stringray.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;18-12-2017&#34;&gt;18.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Folien der Übung: &lt;a href=&#34;https://carnivean.github.io/src/Kira/SlidesU9.pdf&#34;&gt;SlidesU9.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Interpreter:  &lt;a href=&#34;https://carnivean.github.io/src/Kira/Interpreter.java&#34;&gt;Interpreter.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Piguin füttern: &lt;a href=&#34;https://carnivean.github.io/src/Kira/HilfPingu.java&#34;&gt;HilfPingu.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;09-12-2017&#34;&gt;09.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Penguine: &lt;a href=&#34;https://carnivean.github.io/src/peng.java&#34;&gt;peng.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Basen: &lt;a href=&#34;https://carnivean.github.io/src/ZahlenBasen.java&#34;&gt;ZahlenBasen.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Präsenzaufgabe:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Der Sprung müsste in Zeile 10 sein, da die Aufgabenstellung nochmals geändert wurde, nachdem die Lösung erstellt wurde.
+  &lt;img src=&#34;https://carnivean.github.io/img/p72_1.jpg&#34; alt=&#34;Teil 1&#34; /&gt;
+  &lt;img src=&#34;https://carnivean.github.io/img/p72_2.jpg&#34; alt=&#34;Teil 1&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;02-12-2017&#34;&gt;02.12.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gauß: &lt;a href=&#34;https://carnivean.github.io/src/GrausGauß.java&#34;&gt;GrausGauß.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mensch ärgere Dich nich: &lt;a href=&#34;https://carnivean.github.io/src/madn.java&#34;&gt;madn.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;25-11-2017&#34;&gt;25.11.2017&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XOR: &lt;a href=&#34;https://carnivean.github.io/src/XORNachbesprechung.java&#34;&gt;XORNachbesprechung.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stringray: &lt;a href=&#34;https://carnivean.github.io/src/Stringray.java&#34;&gt;Stringray.java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/course/repged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/course/repged/</guid>
+      <description>
+
+&lt;h1 id=&#34;repetetorium-ged-ss-17&#34;&gt;Repetetorium GED SS 17&lt;/h1&gt;
+
+&lt;h2 id=&#34;timetable&#34;&gt;Timetable&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tag&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Raum&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;td&gt;Affine Transformation&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;td&gt;Euler bzw. Project Motion / Barycentric Interpolation&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;td&gt;Shading (Gouraud/Phong/Flat)&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;td&gt;Texture Mapping / Diamond-Square-Algorithmus&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;26.09.  Vormittag&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;26.09.  Nachmittag&lt;/td&gt;
+&lt;td&gt;Bilinear Interpolation &amp;amp; Mipmap&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;27.09. Vormittag&lt;/td&gt;
+&lt;td&gt;Vertex Shader&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;27.09. Nachmittag&lt;/td&gt;
+&lt;td&gt;Array Filtering &amp;amp; Normal Generation&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;td&gt;Blending / Blendstates &amp;amp; Lighting (Reflection)&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;29.09.&lt;/td&gt;
+&lt;td&gt;Wiederholung + Frage und Antwort Stunde&lt;/td&gt;
+&lt;td&gt;00.08.036&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#material&#34;&gt;Material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#affine&#34;&gt;Affine Transformation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#euler&#34;&gt;Euler Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#barycentric&#34;&gt;Barycentric Interpolation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#shading&#34;&gt;Shading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#texturemapping&#34;&gt;Texture Mapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#collision&#34;&gt;Collision Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mipmap&#34;&gt;Mipmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#normal&#34;&gt;Normal Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#moreshaders&#34;&gt;More Shaders&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+
+&lt;p&gt;Die Lösungen zu den diesjährigen Klausuren sind in Absprache mit dem Lehrstuhl passwortgeschützt.
+Wir können somit mit den Klausuren arbeiten, aber sie sollen NIRGENDWO sonst hochgeladen werden und das Passwort gibt es nur persönlich während des Repetetoriums.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture: &lt;a href=&#34;https://carnivean.github.io/src/Lecture_Klausur_enc.pdf&#34;&gt;Lecture_Klausur_enc.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Practical: &lt;a href=&#34;https://carnivean.github.io/src/Practical_Klausur_enc.pdf&#34;&gt;Practical_Klausur_enc.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Projekt &lt;a href=&#34;https://drive.google.com/open?id=0B3vWS4YeyUxxNE1uZ3Q4UTUwUWM&#34;&gt;GEDGame.zip&lt;/a&gt;
+&lt;split&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;besprochene-aufgaben&#34;&gt;Besprochene Aufgaben&lt;/h2&gt;
+
+&lt;h3 id=&#34;praktikums-klausur-ss-17&#34;&gt;Praktikums Klausur SS 17&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Normal Generation&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Shading / Lighting&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shader Understanding (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Rendering Fog&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Pixelshader&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;vorlesungs-klausur-ss-17&#34;&gt;Vorlesungs Klausur SS 17&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Barycentric Interpolation&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Rendering&lt;/td&gt;
+&lt;td&gt;22.09. (teilweise)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Motion Dynamics (Projectile Motion)&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Affine Transformation&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-13-wiederholung&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 13 Wiederholung&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 a&lt;/td&gt;
+&lt;td&gt;Diamond-Square-Algorithmus&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 b&lt;/td&gt;
+&lt;td&gt;Array Filtering&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01 c&lt;/td&gt;
+&lt;td&gt;Vertex Shader (Heightmap)&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Projectile Motion&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02 b&lt;/td&gt;
+&lt;td&gt;Sprite VertexShader&lt;/td&gt;
+&lt;td&gt;27.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Pixelshader (Phong Shading)&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04 a-d&lt;/td&gt;
+&lt;td&gt;Bilinear Interpolation &amp;amp; Mipmap&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04 e&lt;/td&gt;
+&lt;td&gt;Barycentric Interpolation&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Lighting &amp;amp; Shading&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Collision Testing&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Transformation&lt;/td&gt;
+&lt;td&gt;20.09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-12-endterm&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 12 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Blendstate&lt;/td&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Shaders&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Model Rendering&lt;/td&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;Illumination &amp;amp; Shading&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Rasterization &amp;amp; Texture Mapping&lt;/td&gt;
+&lt;td&gt;21.09. &amp;amp; 25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Projectile Motion&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;08&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;09&lt;/td&gt;
+&lt;td&gt;Transformation&lt;/td&gt;
+&lt;td&gt;20.09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-praktikum-vorlesung-ss-13-endterm&#34;&gt;Klausur (Praktikum &amp;amp; Vorlesung) SS 13 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Praktikum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Mesh Transformation &amp;amp; Rendering&lt;/td&gt;
+&lt;td&gt;20.09 &amp;amp; 22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Model Rendering  (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shaders in HLSH&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Vorlesung&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Rasterization (Fragen)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 ab&lt;/td&gt;
+&lt;td&gt;Texture Mapping (Bilinear Interpolation)&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 c&lt;/td&gt;
+&lt;td&gt;Texture Mapping (Mipmap)&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Color Blending / Blendstate&lt;/td&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;07&lt;/td&gt;
+&lt;td&gt;Shading &amp;amp; Lighting&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;08&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;09&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;20.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;klausur-vorlesung-ss-14-endterm&#34;&gt;Klausur Vorlesung SS 14 Endterm&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Aufgabe&lt;/th&gt;
+&lt;th&gt;Thema&lt;/th&gt;
+&lt;th&gt;Besprochen am&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;01&lt;/td&gt;
+&lt;td&gt;Projectile Movement&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;02&lt;/td&gt;
+&lt;td&gt;Transformations&lt;/td&gt;
+&lt;td&gt;22.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;03&lt;/td&gt;
+&lt;td&gt;Shading (Fragen)&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;04&lt;/td&gt;
+&lt;td&gt;Lighting (Reflection)&lt;/td&gt;
+&lt;td&gt;28.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 ab&lt;/td&gt;
+&lt;td&gt;Rasterization (Barycentric Coordinates)&lt;/td&gt;
+&lt;td&gt;21.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;05 c&lt;/td&gt;
+&lt;td&gt;Rasterization (Texture Mapping)&lt;/td&gt;
+&lt;td&gt;25.09.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;06&lt;/td&gt;
+&lt;td&gt;Collision Detection&lt;/td&gt;
+&lt;td&gt;26.09.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;affine&#34;&gt;Affine Transformation&lt;/h2&gt;
+
+&lt;h3 id=&#34;wiederholung-lineare-und-affine-transformationen&#34;&gt;Wiederholung Lineare und Affine Transformationen&lt;/h3&gt;
+
+&lt;h3 id=&#34;affine-playground&#34;&gt;Affine Playground&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://carnivean.github.io/algorithms/affine/&#34;&gt;Affine Playground&lt;/a&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;euler&#34;&gt;Euler Integration / Projectile Motion&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/projectile.png&#34; alt=&#34;Projectile Update Code&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;barycentric&#34;&gt;Barycentric Interpolation&lt;/h2&gt;
+
+&lt;p&gt;Aufgabe zum Üben:&lt;/p&gt;
+
+&lt;p&gt;A = [4, 4, 2] [1, 0, 0]&lt;/p&gt;
+
+&lt;p&gt;B = [-2, 6, 4] [0, 1, 0]&lt;/p&gt;
+
+&lt;p&gt;C = [2, -6, 8] [1, 0, 1]&lt;/p&gt;
+
+&lt;p&gt;D = [2, -2, 6] [?, ?, ?]&lt;/p&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;shading&#34;&gt;Shading&lt;/h2&gt;
+
+&lt;h3 id=&#34;genereller-vertexshader-und-pixelshader&#34;&gt;Genereller Vertexshader und Pixelshader&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/generalvsps.PNG&#34; alt=&#34;Generell VS/PS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;phong-pixelshader-gouraud-vertexshader-fast-gleich&#34;&gt;Phong Pixelshader / (Gouraud Vertexshader fast gleich)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/phongps.PNG&#34; alt=&#34;Phong Pixelshader&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;texturemapping&#34;&gt;Texture Mapping&lt;/h2&gt;
+
+&lt;p&gt;&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dsa&#34;&gt;Diamond-Square-Algorithmus&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/dsa.PNG&#34; alt=&#34;DSA Mainloop&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;collision&#34;&gt;Collision Detection&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/collision.PNG&#34; alt=&#34;Collision Detection&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mipmap&#34;&gt;Mipmap&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/mipmap.PNG&#34; alt=&#34;Mipmap&#34; /&gt;
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;normal&#34;&gt;Normal Generation&lt;/h2&gt;
+
+&lt;p&gt;Siehe Musterlösung der Praktikumsklausur SS 17, Aufgabe 1.
+&lt;split&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;moreshaders&#34;&gt;More Shaders&lt;/h2&gt;
+
+&lt;h3 id=&#34;vertexshader-terrainrendering-aus-heightfield&#34;&gt;Vertexshader: Terrainrendering aus Heightfield&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/vs_terrain.PNG&#34; alt=&#34;Vertexshader: Terrainrendering&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;geometry-shader-spriterendering&#34;&gt;Geometry Shader: Spriterendering&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://carnivean.github.io/img/gs_sprite.PNG&#34; alt=&#34;Geometryshader: Spritenrendering&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

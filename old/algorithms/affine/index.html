@@ -1,0 +1,119 @@
+<head>
+
+	
+	<title>THE MAGNIFICENT 2D MATRIX</title>
+	<meta name="description" content="Behold the beast! Play with an interactive 2d matrix." />
+	<link rel="icon" type="image/png" href="favicon.png">
+
+
+
+	
+	<link rel="stylesheet" type="text/css" href="../../css/matrix.css">
+	<link rel="stylesheet" type="text/css" href="../../css/share.css">
+
+</head>
+<body>
+
+
+<div id="graphics">
+		<canvas id="bullets"></canvas>
+	</div>
+	<div id="math">
+		<div id="mtx_transform" class="matrix unselectable" style="width:240px">
+			<input value="1.0"/><input value="0.0"/><input value="0.0"/><input value="0.0"/>
+			<input value="0.0"/><input value="1.0"/><input value="0.0"/><input value="0.0"/>
+			<input value="0.0"/><input value="0.0"/><input value="1.0"/><input value="0.0"/>
+
+			<div plain style="position: absolute; top: 180px;">0</div>
+			<div plain style="position: absolute; top: 180px; left:70px">0</div>
+			<div plain style="position: absolute; top: 180px; left:130px">0</div>
+			<div plain style="position: absolute; top: 180px; left:190px">1</div>
+
+			<div class="label">
+			the transformation matrix
+			<br>
+			<span>(adjust the numbers!)</span>
+			</div>
+
+		</div>
+		<div id="mtx_input"  class="matrix unselectable" style="width:60px">
+
+			<div plain style="position: absolute; top: 0px;">x</div>
+			<div plain style="position: absolute; top: 60px;">y</div>
+			<div plain style="position: absolute; top: 120px;">z</div>
+			<div plain style="position: absolute; top: 180px;">1</div>
+
+			
+
+			<div class="label">
+			a vector
+			<br>
+			<span>(hover over the dots)</span>
+			</div>
+
+		</div>
+		<div class="equals"></div>
+		<div id="mtx_expanded"  class="matrix unselectable" expanded>
+			<div><span class="left">1</span>*<span class="right">1</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+
+			<div><span class="left">0</span>*<span class="right">0</span></div>
+			<div plus><span class="left">0</span>*<span class="right">0</span></div>
+			<div plus><span class="left">0</span>*<span class="right">0</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+
+			<div><span class="left">0</span>*<span class="right">x</span></div>
+			<div plus><span class="left">0</span>*<span class="right">y</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+
+			<div><span class="left">0</span>*<span class="right">x</span></div>
+			<div plus><span class="left">0</span>*<span class="right">y</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+			<div plus><span class="left">1</span>*<span class="right">1</span></div>
+
+			<div class="label">
+			how to multiply transformation matrix &amp; vector
+			<br>
+			<span>(hover over each cell)</span>
+			</div>
+
+		</div>
+		<div class="equals"></div>
+		<div id="mtx_output"  class="matrix" style="width:60px">
+			<div>x'</div>
+			<div>y'</div>
+			<div>z'</div>
+			<div>1</div>
+
+			<div class="label">
+			new vector
+			<br>
+			<span>(hover over the dots)</span>
+			</div>
+
+		</div>
+	</div>
+	<div id="curtains">
+		<div></div>
+		<div></div>
+	</div>
+
+	<div id="info">
+
+		<div class="info_title">
+			<img src="../../img/hand.jpg">
+			Affine Transformations
+			<img src="../../img/hand2.jpg">
+		</div>
+
+
+		<p>
+			Forked from the matrix project @ <a href="https://github.com/ncase/matrix">Github.</a>
+		</p>
+
+	</div>
+</body>
+<script src="../../js/matrix.js"></script>

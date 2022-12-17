@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on Erik Kynast</title>
+    <link>https://carnivean.github.io/algorithms/index.xml</link>
+    <description>Recent content in Algorithms on Erik Kynast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Erik Kynast</copyright>
+    <atom:link href="/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/algorithms/affine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/algorithms/affine/</guid>
+      <description>&lt;head&gt;
+
+	&lt;!-- Place this data between the &lt;head&gt; tags of your website --&gt;
+	&lt;title&gt;THE MAGNIFICENT 2D MATRIX&lt;/title&gt;
+	&lt;meta name=&#34;description&#34; content=&#34;Behold the beast! Play with an interactive 2d matrix.&#34; /&gt;
+	&lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;favicon.png&#34;&gt;
+
+
+
+	&lt;!-- CSS --&gt;
+	&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;../../css/matrix.css&#34;&gt;
+	&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;../../css/share.css&#34;&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+
+&lt;div id=&#34;graphics&#34;&gt;
+		&lt;canvas id=&#34;bullets&#34;&gt;&lt;/canvas&gt;
+	&lt;/div&gt;
+	&lt;div id=&#34;math&#34;&gt;
+		&lt;div id=&#34;mtx_transform&#34; class=&#34;matrix unselectable&#34; style=&#34;width:240px&#34;&gt;
+			&lt;input value=&#34;1.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;
+			&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;1.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;
+			&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;&lt;input value=&#34;1.0&#34;/&gt;&lt;input value=&#34;0.0&#34;/&gt;
+
+			&lt;div plain style=&#34;position: absolute; top: 180px;&#34;&gt;0&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 180px; left:70px&#34;&gt;0&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 180px; left:130px&#34;&gt;0&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 180px; left:190px&#34;&gt;1&lt;/div&gt;
+
+			&lt;div class=&#34;label&#34;&gt;
+			the transformation matrix
+			&lt;br&gt;
+			&lt;span&gt;(adjust the numbers!)&lt;/span&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;div id=&#34;mtx_input&#34;  class=&#34;matrix unselectable&#34; style=&#34;width:60px&#34;&gt;
+
+			&lt;div plain style=&#34;position: absolute; top: 0px;&#34;&gt;x&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 60px;&#34;&gt;y&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 120px;&#34;&gt;z&lt;/div&gt;
+			&lt;div plain style=&#34;position: absolute; top: 180px;&#34;&gt;1&lt;/div&gt;
+
+			&lt;!--div plain&gt;x&lt;/div&gt;
+			&lt;div plain&gt;y&lt;/div&gt;
+			&lt;div plain&gt;1&lt;/div--&gt;
+
+			&lt;div class=&#34;label&#34;&gt;
+			a vector
+			&lt;br&gt;
+			&lt;span&gt;(hover over the dots)&lt;/span&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;div class=&#34;equals&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;mtx_expanded&#34;  class=&#34;matrix unselectable&#34; expanded&gt;
+			&lt;div&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+
+			&lt;div&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;0&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;0&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;0&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+
+			&lt;div&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;x&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;y&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+
+			&lt;div&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;x&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;0&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;y&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+			&lt;div plus&gt;&lt;span class=&#34;left&#34;&gt;1&lt;/span&gt;*&lt;span class=&#34;right&#34;&gt;1&lt;/span&gt;&lt;/div&gt;
+
+			&lt;div class=&#34;label&#34;&gt;
+			how to multiply transformation matrix &amp;amp; vector
+			&lt;br&gt;
+			&lt;span&gt;(hover over each cell)&lt;/span&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;div class=&#34;equals&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;mtx_output&#34;  class=&#34;matrix&#34; style=&#34;width:60px&#34;&gt;
+			&lt;div&gt;x&#39;&lt;/div&gt;
+			&lt;div&gt;y&#39;&lt;/div&gt;
+			&lt;div&gt;z&#39;&lt;/div&gt;
+			&lt;div&gt;1&lt;/div&gt;
+
+			&lt;div class=&#34;label&#34;&gt;
+			new vector
+			&lt;br&gt;
+			&lt;span&gt;(hover over the dots)&lt;/span&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id=&#34;curtains&#34;&gt;
+		&lt;div&gt;&lt;/div&gt;
+		&lt;div&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div id=&#34;info&#34;&gt;
+
+		&lt;div class=&#34;info_title&#34;&gt;
+			&lt;img src=&#34;../../img/hand.jpg&#34;&gt;
+			Affine Transformations
+			&lt;img src=&#34;../../img/hand2.jpg&#34;&gt;
+		&lt;/div&gt;
+
+
+		&lt;p&gt;
+			Forked from the matrix project @ &lt;a href=&#34;https://github.com/ncase/matrix&#34;&gt;Github.&lt;/a&gt;
+		&lt;/p&gt;
+
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;script src=&#34;../../js/matrix.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carnivean.github.io/algorithms/dsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://carnivean.github.io/algorithms/dsa/</guid>
+      <description>
+
+&lt;h1 id=&#34;diamond-square-algorithmus&#34;&gt;Diamond-Square-Algorithmus&lt;/h1&gt;
+
+&lt;p&gt;not yet, leider bisher keine Zeit gehabt&amp;hellip; - Kommt definitiv vor der Klausur zur Vorbereitung&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
