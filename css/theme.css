@@ -16,12 +16,11 @@ Licensed under MIT
   outline: none;
 }
 #headerRow {
-  height: 20vh;
   text-align: center;
 }
 
 #headerRow > .col-sm-12 {
-  height: 300px;
+  height: 150px;
 }
 
 #secondRow {
@@ -194,6 +193,7 @@ p {
 .container {
   z-index: 2;
   position: relative;
+  margin-top: 60px;
 }
 .i-large,
 .i-medium,
@@ -315,20 +315,9 @@ header .device-container .screen img {
   	max-width:300px;
   	margin:0 auto 100px
   }
-  header .header-content {
-  	padding:150px 0 50px;
-  	position:relative
-  }
-	header .header-content {
-		text-align:left;
-		padding:0;
-		height:50vh
-	}
 	header .header-content .header-content-inner {
 		max-width:none;
-    margin: calc(20%) 0 0 0;
-    top: 65%;
-		transform:translateY(-50%)
+		top: 65%;
 	}
 	header .header-content .header-content-inner h1 {
 		font-size:35px
@@ -543,9 +532,6 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 }
 
 @media (max-width:800px) {
-  header {
-      padding: 100px 0 60px;
-  }
   header .header-content .header-content-inner h1 {
     font-size: 50px;
     margin-top:20px;
